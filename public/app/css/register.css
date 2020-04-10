@@ -1,0 +1,53 @@
+@media (min-width: 1200px) {
+    #register-page .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1000px;
+    }
+    #register-page button {
+        width: 100%;
+    }
+}
+
+#register-page input {
+    padding: 15px 40px 13px 30px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: serif;
+    background: #87a7bf;
+    border: 1px solid #87a7bf;
+}
+
+#register-page input:hover {
+    background: #ffde5f;
+    border: 1px solid #ffde5f;
+}
+
+#register-page input::placeholder {
+    color: black;
+}
+
+#register-page button {
+    padding: 12px 50px;
+    background: #3d5c73;
+    border: 1px solid #3d5c73;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: serif;
+    transition: 0.6s;
+}
+
+@media only screen and (max-width: 600px) {
+    #register-page button {
+        width: 53%;
+    }
+}
+
+#register-page button:hover {
+    background: black;
+    border: 1px solid black;
+    opacity: 1
+}

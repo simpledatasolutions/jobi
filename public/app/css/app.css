@@ -1,0 +1,30 @@
+#top-nav hr {
+    margin-top: 0rem;
+    margin-bottom: 0.5rem;
+    border: 0;
+    border-top: 1px solid #d4cece;
+    width: 55%;
+}
+
+#top-nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 12px 0 12px;
+}
+
+#top-nav ul li a {
+    color: #9E9E9E;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: serif;
+}
+
+#top-nav ul li a.active {
+    color: black;
+}
+
+#register-page hr,
+#apply-page hr,
+#about-page hr {
+    border-top: 3px solid #d4cece;
+}

@@ -1,0 +1,56 @@
+#apply-page .card {
+    border-radius: 10px;
+}
+
+#apply-page .cardHeader {
+    /* padding: 2.25rem; */
+    border-radius: 10px;
+    border-top: 10px solid rgb(152, 203, 237);
+}
+
+#apply-page .card-body h3 {
+    font-weight: normal;
+}
+
+#apply-page .card-body p {
+    font-size: 15px;
+}
+
+#apply-page input {
+    padding: 5px;
+    font-size: 16px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    width: 55%;
+}
+
+#apply-page select {
+    padding: 10px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    width: 30%;
+}
+
+#apply-page button {
+    width: 18%;
+}
+
+.applyFormCol {
+    height: 85%;
+    overflow-x: auto;
+}
+
+.applyFormCol::-webkit-scrollbar-track {
+    border-radius: 50px;
+    background-color: #f0f0f0;
+}
+
+.applyFormCol::-webkit-scrollbar {
+    width: 5px;
+}
+
+.applyFormCol::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background-color: rgb(190, 190, 190)
+}

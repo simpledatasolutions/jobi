@@ -1,0 +1,24 @@
+.font_2 {
+    font-size: 100px;
+    color: #FFFFFF;
+    letter-spacing: 0.1em;
+    font-weight: 100;
+}
+
+.btn-rg {
+    border: 1px solid #FFFFFF;
+    padding: 13px 70px 13px 70px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    transition: 0.6s;
+}
+
+.btn-rg:hover {
+    color: black;
+    background: #FFFFFF;
+    text-decoration: none;
+    opacity: 1
+}

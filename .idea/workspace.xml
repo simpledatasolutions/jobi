@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3efbb3ee-3a45-4265-afa7-5e6b5c462912" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Apply.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Apply.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/RegisterController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +71,8 @@
       <workItem from="1586491917842" duration="37000" />
       <workItem from="1586491985804" duration="2099000" />
       <workItem from="1586495356063" duration="380000" />
+      <workItem from="1586497177475" duration="1301000" />
+      <workItem from="1586501235275" duration="644000" />
     </task>
     <servers />
   </component>
@@ -89,14 +93,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="830" y="413" key="Github.ShareDialog/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1586492767894" />
-    <state x="-1264" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1586495357634">
+    <state x="-1264" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1586501311839">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1264" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@-1920.0.1920.1040" timestamp="1586491592095" />
-    <state x="-1264" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1586495357634" />
+    <state x="-1264" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1586501311839" />
     <state x="765" y="384" key="git4idea.rebase.GitRebaseDialog" timestamp="1586495726646">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="384" key="git4idea.rebase.GitRebaseDialog/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1586495726646" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1586501572904">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1586501572904" />
   </component>
 </project>

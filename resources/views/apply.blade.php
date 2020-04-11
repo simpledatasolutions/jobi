@@ -19,7 +19,9 @@ class="active"
                 <div class="card">
                     <div class="card-body cardHeader">
                         <h3>Application Tester Role</h3><br>
-                        <p>Wnot testing i love anawis </p>
+                        <p>Want a free tax return? Feel like contributing to something that will help millions of people? Want to see the forefront of Artificial Intelligence at work? Then come help us test!</p>
+                        <p>Jobi is group of Accountants, Engineers and Computer Scientists who believe the current way that tax is done and lodged is outdated and riddled with human error. Our studies indicate that 70% of immigrants and student tax returns can be automated. This allows you to save on
+                           ANAWOSSSSSSSSSS. </p>
                         <p style="color:red;">* Required</p>
                     </div>
                 </div><br>

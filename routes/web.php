@@ -32,3 +32,9 @@ Route::get('/apply/submit', 'ApplicationController@submit');
 Route::get('/about', function () {
     return view('about');
 });
+
+Route::get('/form', function () {
+    return view('form');
+});
+
+Route::get('/form/questions', 'FormController@getQuestions');

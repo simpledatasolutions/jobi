@@ -17,7 +17,7 @@
     <div class="container-sm mt-5">
         <div class="offset-md-2 col-md-8">
             <div class="card">
-                <div class="card-header"><b>Dynamic Forms (Laravel)</b></div>
+                <div class="card-header"><b>Dynamic Tax Form </b></div>
                 <div class="card-body">
                     <form id="dynamicForm" class="col-md-10">
                         <div class="form-group">

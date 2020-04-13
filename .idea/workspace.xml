@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a240af5-8aa5-4d24-afc5-43941f367fe1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/form.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/users/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/users/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,6 +138,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Josh\Projects\code\jobi\resources\views" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Josh\Projects\code\jobi\resources" />
       <recent name="C:\Users\Josh\Projects\code\jobi\resources\views\layouts" />
@@ -165,7 +172,7 @@
       <workItem from="1586735104656" duration="21000" />
       <workItem from="1586735310160" duration="11000" />
       <workItem from="1586737234435" duration="240000" />
-      <workItem from="1586737506218" duration="8558000" />
+      <workItem from="1586737506218" duration="8995000" />
     </task>
     <task id="LOCAL-00001" summary="show">
       <created>1586606346936</created>
@@ -209,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586756637061</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Admin portal">
+      <created>1586756710979</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1586756710979</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,10 +246,10 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1296" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@-1920.0.1920.1040" timestamp="1586737632052" />
-    <state x="-1335" y="114" key="CommitChangelistDialog2" timestamp="1586756635396">
+    <state x="-1335" y="114" key="CommitChangelistDialog2" timestamp="1586756710036">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1335" y="114" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@-1920.0.1920.1040" timestamp="1586756635396" />
+    <state x="-1335" y="114" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@-1920.0.1920.1040" timestamp="1586756710036" />
     <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1586606492827" />
     <state x="-1180" y="275" key="FileChooserDialogImpl" timestamp="1586753107405">
       <screen x="-1920" y="0" width="1920" height="1040" />
@@ -255,9 +269,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1586736448159" />
-    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1586755037488">
+    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1586756921917">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@-1920.0.1920.1040" timestamp="1586755037488" />
+    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@-1920.0.1920.1040" timestamp="1586756921917" />
   </component>
 </project>

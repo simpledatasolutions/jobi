@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a240af5-8aa5-4d24-afc5-43941f367fe1" name="Default Changelist" comment="" />
+    <list default="true" id="6a240af5-8aa5-4d24-afc5-43941f367fe1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -122,7 +124,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cms" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
@@ -146,6 +148,8 @@
       <workItem from="1586506303758" duration="58000" />
       <workItem from="1586506720700" duration="31000" />
       <workItem from="1586507180603" duration="5085000" />
+      <workItem from="1586735104656" duration="21000" />
+      <workItem from="1586735310160" duration="11000" />
     </task>
     <task id="LOCAL-00001" summary="show">
       <created>1586606346936</created>
@@ -172,18 +176,23 @@
     <option name="LAST_COMMIT_MESSAGE" value="show" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1586606492827">
+    <state x="-1335" y="114" key="CommitChangelistDialog2" timestamp="1586736498621">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1335" y="114" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@-1920.0.1920.1040" timestamp="1586736498621" />
+    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1586606492827" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1586735317992">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1586606492827" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1586735317992" />
     <state x="-1459" y="162" key="SettingsEditor" timestamp="1586605451040">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1459" y="162" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@-1920.0.1920.1040" timestamp="1586605451040" />
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1586506739858" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1586507180739">
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1586736448159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1586507180739" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1586736448159" />
   </component>
 </project>

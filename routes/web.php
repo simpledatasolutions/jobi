@@ -18,7 +18,7 @@ Route::get('/', function () {
 });
 
 Route::get('/subscribe', function () {
-    return view('register');
+    return view('subscribe');
 });
 
 Route::get('/subscribe/submit', 'SubscribeController@submit');
@@ -38,3 +38,7 @@ Route::get('/form', function () {
 });
 
 Route::get('/form/questions', 'FormController@getQuestions');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

@@ -1,101 +1,34 @@
 @extends('layouts.admin')
 
-
-
-
 @section('content')
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header">Edit User {{$user->name}}</div>
 
 
-    <h1>Edit User</h1>
+                            <form action ="{{ route('admin.users.update',$user) }}" method="POST">
+                                @csrf
+                                {{ method_field('PUT') }}
+                                @foreach($roles as $role)
+                                    <div class="form-check">
+                                        <input type="checkbox" name="roles[]" value=""{{$role->id}}">
+                                        <label>{{$role->name}}</label>
+                                    </div>
+                                @endforeach
+                                <button type="submit" class="btn btn-primary">
+                                    Update
+                                </button>
 
 
-    <div class="row">
+
+                            </form>
 
 
-
-
-
-        <div class="col-sm-9">
-
-
-            {!! Form::model($user, ['method'=>'PATCH', 'action'=> ['AdminUsersController@update', $user->id],'files'=>true]) !!}
-
-
-            <div class="form-group">
-                {!! Form::label('name', 'Name:') !!}
-                {!! Form::text('name', null, ['class'=>'form-control'])!!}
+                    </div>
+                </div>
             </div>
-
-
-            <div class="form-group">
-                {!! Form::label('email', 'Email:') !!}
-                {!! Form::email('email', null, ['class'=>'form-control'])!!}
-            </div>
-
-            <div class="form-group">
-                {!! Form::label('role_id', 'Role:') !!}
-                {!! Form::select('role_id',  $roles , null, ['class'=>'form-control'])!!}
-            </div>
-
-
-            <div class="form-group">
-                {!! Form::label('is_active', 'Status:') !!}
-                {!! Form::select('is_active', array(1 => 'Active', 0=> 'Not Active'), null , ['class'=>'form-control'])!!}
-            </div>
-
-
-
-
-            <div class="form-group">
-                {!! Form::label('password', 'Password:') !!}
-                {!! Form::password('password', ['class'=>'form-control'])!!}
-            </div>
-
-
-
-
-
-            <div class="form-group">
-                {!! Form::submit('Update User', ['class'=>'btn btn-primary col-sm-6']) !!}
-            </div>
-
-            {!! Form::close() !!}
-
-
-
-
-
-
-             {!! Form::open(['method'=>'DELETE', 'action'=> ['AdminUsersController@destroy', $user->id]]) !!}
-
-
-
-                 <div class="form-group">
-                    {!! Form::submit('Delete user', ['class'=>'btn btn-danger col-sm-6']) !!}
-                 </div>
-
-               {!! Form::close() !!}
-
-
-
-
         </div>
-
-
-
     </div>
-
-
-
-    <div class="row">
-
-        @include('includes.form_error')
-
-
-    </div>
-
-
-
-
-
-@stop
+@endsection

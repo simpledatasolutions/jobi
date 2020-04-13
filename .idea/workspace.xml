@@ -4,6 +4,7 @@
     <list default="true" id="6a240af5-8aa5-4d24-afc5-43941f367fe1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/UsersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/users/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/users/edit.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +171,7 @@
       <workItem from="1586735310160" duration="11000" />
       <workItem from="1586737234435" duration="240000" />
       <workItem from="1586737506218" duration="8995000" />
-      <workItem from="1586759148165" duration="5760000" />
+      <workItem from="1586759148165" duration="6389000" />
     </task>
     <task id="LOCAL-00001" summary="show">
       <created>1586606346936</created>
@@ -235,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586764803155</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="buttons">
+      <created>1586764924429</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1586764924429</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,10 +268,10 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1296" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@-1920.0.1920.1040" timestamp="1586737632052" />
-    <state x="-1335" y="114" key="CommitChangelistDialog2" timestamp="1586764801987">
+    <state x="-1335" y="114" key="CommitChangelistDialog2" timestamp="1586764923258">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1335" y="114" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@-1920.0.1920.1040" timestamp="1586764801987" />
+    <state x="-1335" y="114" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@-1920.0.1920.1040" timestamp="1586764923258" />
     <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1586606492827" />
     <state x="-1180" y="275" key="FileChooserDialogImpl" timestamp="1586762208459">
       <screen x="-1920" y="0" width="1920" height="1040" />

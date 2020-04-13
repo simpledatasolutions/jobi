@@ -3,25 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6a240af5-8aa5-4d24-afc5-43941f367fe1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_04_09_084949_create_subscriptions_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/app/css/subscribe.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/app/css/subscribe.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +152,7 @@
       <workItem from="1586735104656" duration="21000" />
       <workItem from="1586735310160" duration="11000" />
       <workItem from="1586737234435" duration="240000" />
-      <workItem from="1586737506218" duration="1930000" />
+      <workItem from="1586737506218" duration="2284000" />
     </task>
     <task id="LOCAL-00001" summary="show">
       <created>1586606346936</created>
@@ -194,7 +175,21 @@
       <option name="project" value="LOCAL" />
       <updated>1586738027030</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add in auth">
+      <created>1586739510514</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586739510514</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add in auth">
+      <created>1586739587975</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586739587975</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,17 +198,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="show" />
     <MESSAGE value="Updae to subscriptions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updae to subscriptions" />
+    <MESSAGE value="Add in auth" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add in auth" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1296" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586737632052">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1296" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@-1920.0.1920.1040" timestamp="1586737632052" />
-    <state x="-1335" y="114" key="CommitChangelistDialog2" timestamp="1586739580592">
+    <state x="-1335" y="114" key="CommitChangelistDialog2" timestamp="1586739587060">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1335" y="114" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@-1920.0.1920.1040" timestamp="1586739580592" />
+    <state x="-1335" y="114" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@-1920.0.1920.1040" timestamp="1586739587060" />
     <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1586606492827" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1586735317992">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -228,9 +224,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1586736448159" />
-    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1586739026680">
+    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1586739862668">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@-1920.0.1920.1040" timestamp="1586739026680" />
+    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@-1920.0.1920.1040" timestamp="1586739862668" />
   </component>
 </project>

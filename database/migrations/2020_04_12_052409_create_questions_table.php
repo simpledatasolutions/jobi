@@ -15,8 +15,10 @@ class CreateQuestionsTable extends Migration
     {
         Schema::create('questions', function (Blueprint $table) {
             $table->bigIncrements('question_id');
+            $table->uuid('uuid')->unique()->default(DB::raw('uuid_generate_v4()'));
             $table->string('question');
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 

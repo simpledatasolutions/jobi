@@ -23,12 +23,14 @@ class UsersTableSeeder extends Seeder
 
         $admin = User::create([
             'name' => 'Admin User',
+            'uuid' => 'd0402be5-e1ba-4cb2-a80c-5340b406e2c2',
             'email' => 'admin@jobitax.com',
             'password'=> Hash::make('password')
         ]);
 
         $user = User::create([
             'name' => 'Generic User',
+            'uuid' => 'd0402be5-e1ba-4cb2-a80c-5340b406e2c3',
             'email' => 'user@user.com',
             'password'=> Hash::make('password')
         ]);

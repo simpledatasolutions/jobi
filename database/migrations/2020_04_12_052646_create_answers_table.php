@@ -15,11 +15,13 @@ class CreateAnswersTable extends Migration
     {
         Schema::create('answers', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->uuid('uuid')->unique()->default(DB::raw('uuid_generate_v4()'));
             $table->integer('question_id');
             $table->string('logic');
             $table->string('answer')->nullable();
-            $table->integer('next_question_id');	
+            $table->integer('next_question_id');
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 

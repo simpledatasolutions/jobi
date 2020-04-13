@@ -23,7 +23,7 @@
                                 <th scope="row">{{$user->id}}</th>
                                 <td>{{ $user->name }}</td>
                                 <td>{{ $user->email }}</td>
-                                <td>{{ impolode(', ',$user->roles()->get()->pluck('name')->toArray())}}</td>
+                                <td>{{ implode(', ',$user->roles()->get()->pluck('name')->toArray())}}</td>
                                 <td>
                                     <a href="{{route('admin.users.edit', $user->id)}}"><button type="button" class="btn btn-primary">Edit</button></a>
                                     <a href="{{route('admin.users.destroy', $user->id)}}"><button type="button" class="btn btn-warning">Delete</button></a>

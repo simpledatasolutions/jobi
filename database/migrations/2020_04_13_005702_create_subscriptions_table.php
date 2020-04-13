@@ -15,10 +15,12 @@ class CreateSubscriptionsTable extends Migration
     {
         Schema::create('subscriptions', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->uuid('uuid')->unique()->default(DB::raw('uuid_generate_v4()'));
             $table->string('name');
             $table->string('email');
             $table->string('phone');
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 

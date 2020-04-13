@@ -25,7 +25,7 @@ class NotificationServiceProvider extends ServiceProvider
     }
 
     /**
-     * Register the service provider.
+     * Subscribe the service provider.
      *
      * @return void
      */

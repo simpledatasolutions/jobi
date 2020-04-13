@@ -43,7 +43,7 @@ class ClassAliasAutoloader
     protected $excludedAliases;
 
     /**
-     * Register a new alias loader instance.
+     * Subscribe a new alias loader instance.
      *
      * @param  \Psy\Shell  $shell
      * @param  string  $classMapPath

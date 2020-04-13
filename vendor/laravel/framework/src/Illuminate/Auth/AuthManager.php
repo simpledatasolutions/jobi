@@ -217,7 +217,7 @@ class AuthManager implements FactoryContract
     }
 
     /**
-     * Register a new callback based request guard.
+     * Subscribe a new callback based request guard.
      *
      * @param  string  $driver
      * @param  callable  $callback
@@ -258,7 +258,7 @@ class AuthManager implements FactoryContract
     }
 
     /**
-     * Register a custom driver creator Closure.
+     * Subscribe a custom driver creator Closure.
      *
      * @param  string  $driver
      * @param  \Closure  $callback
@@ -272,7 +272,7 @@ class AuthManager implements FactoryContract
     }
 
     /**
-     * Register a custom provider creator Closure.
+     * Subscribe a custom provider creator Closure.
      *
      * @param  string  $name
      * @param  \Closure  $callback

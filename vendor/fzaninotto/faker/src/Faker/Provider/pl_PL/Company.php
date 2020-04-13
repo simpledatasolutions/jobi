@@ -28,7 +28,7 @@ class Company extends \Faker\Provider\Company
     }
 
     /*
-     * Register of the National Economy
+     * Subscribe of the National Economy
      * @link http://pl.wikipedia.org/wiki/REGON
      * @return 9 digit number
      */
@@ -54,7 +54,7 @@ class Company extends \Faker\Provider\Company
     }
 
     /**
-     * Register of the National Economy, local entity number
+     * Subscribe of the National Economy, local entity number
      * @link http://pl.wikipedia.org/wiki/REGON
      * @return 14 digit number
      */

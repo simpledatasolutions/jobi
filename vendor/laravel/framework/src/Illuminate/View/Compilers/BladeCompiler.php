@@ -462,7 +462,7 @@ class BladeCompiler extends Compiler implements CompilerInterface
     }
 
     /**
-     * Register a custom Blade compiler.
+     * Subscribe a custom Blade compiler.
      *
      * @param  callable  $compiler
      * @return void
@@ -483,7 +483,7 @@ class BladeCompiler extends Compiler implements CompilerInterface
     }
 
     /**
-     * Register an "if" statement directive.
+     * Subscribe an "if" statement directive.
      *
      * @param  string  $name
      * @param  callable  $callback
@@ -529,7 +529,7 @@ class BladeCompiler extends Compiler implements CompilerInterface
     }
 
     /**
-     * Register a class-based component alias directive.
+     * Subscribe a class-based component alias directive.
      *
      * @param  string  $class
      * @param  string|null  $alias
@@ -558,7 +558,7 @@ class BladeCompiler extends Compiler implements CompilerInterface
     }
 
     /**
-     * Register an array of class-based components.
+     * Subscribe an array of class-based components.
      *
      * @param  array  $components
      * @param  string  $prefix
@@ -586,7 +586,7 @@ class BladeCompiler extends Compiler implements CompilerInterface
     }
 
     /**
-     * Register a component alias directive.
+     * Subscribe a component alias directive.
      *
      * @param  string  $path
      * @param  string|null  $alias
@@ -608,7 +608,7 @@ class BladeCompiler extends Compiler implements CompilerInterface
     }
 
     /**
-     * Register an include alias directive.
+     * Subscribe an include alias directive.
      *
      * @param  string  $path
      * @param  string|null  $alias
@@ -620,7 +620,7 @@ class BladeCompiler extends Compiler implements CompilerInterface
     }
 
     /**
-     * Register an include alias directive.
+     * Subscribe an include alias directive.
      *
      * @param  string  $path
      * @param  string|null  $alias
@@ -638,7 +638,7 @@ class BladeCompiler extends Compiler implements CompilerInterface
     }
 
     /**
-     * Register a handler for custom directives.
+     * Subscribe a handler for custom directives.
      *
      * @param  string  $name
      * @param  callable  $handler
@@ -666,7 +666,7 @@ class BladeCompiler extends Compiler implements CompilerInterface
     }
 
     /**
-     * Register a new precompiler.
+     * Subscribe a new precompiler.
      *
      * @param  callable  $precompiler
      * @return void

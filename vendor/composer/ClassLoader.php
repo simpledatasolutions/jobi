@@ -156,7 +156,7 @@ class ClassLoader
     public function addPsr4($prefix, $paths, $prepend = false)
     {
         if (!$prefix) {
-            // Register directories for the root namespace.
+            // Subscribe directories for the root namespace.
             if ($prepend) {
                 $this->fallbackDirsPsr4 = array_merge(
                     (array) $paths,
@@ -169,7 +169,7 @@ class ClassLoader
                 );
             }
         } elseif (!isset($this->prefixDirsPsr4[$prefix])) {
-            // Register directories for a new namespace.
+            // Subscribe directories for a new namespace.
             $length = strlen($prefix);
             if ('\\' !== $prefix[$length - 1]) {
                 throw new \InvalidArgumentException("A non-empty PSR-4 prefix must end with a namespace separator.");

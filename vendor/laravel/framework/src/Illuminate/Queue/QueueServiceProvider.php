@@ -22,7 +22,7 @@ use Opis\Closure\SerializableClosure;
 class QueueServiceProvider extends ServiceProvider implements DeferrableProvider
 {
     /**
-     * Register the service provider.
+     * Subscribe the service provider.
      *
      * @return void
      */
@@ -37,7 +37,7 @@ class QueueServiceProvider extends ServiceProvider implements DeferrableProvider
     }
 
     /**
-     * Register the queue manager.
+     * Subscribe the queue manager.
      *
      * @return void
      */
@@ -54,7 +54,7 @@ class QueueServiceProvider extends ServiceProvider implements DeferrableProvider
     }
 
     /**
-     * Register the default queue connection binding.
+     * Subscribe the default queue connection binding.
      *
      * @return void
      */
@@ -66,7 +66,7 @@ class QueueServiceProvider extends ServiceProvider implements DeferrableProvider
     }
 
     /**
-     * Register the connectors on the queue manager.
+     * Subscribe the connectors on the queue manager.
      *
      * @param  \Illuminate\Queue\QueueManager  $manager
      * @return void
@@ -79,7 +79,7 @@ class QueueServiceProvider extends ServiceProvider implements DeferrableProvider
     }
 
     /**
-     * Register the Null queue connector.
+     * Subscribe the Null queue connector.
      *
      * @param  \Illuminate\Queue\QueueManager  $manager
      * @return void
@@ -92,7 +92,7 @@ class QueueServiceProvider extends ServiceProvider implements DeferrableProvider
     }
 
     /**
-     * Register the Sync queue connector.
+     * Subscribe the Sync queue connector.
      *
      * @param  \Illuminate\Queue\QueueManager  $manager
      * @return void
@@ -105,7 +105,7 @@ class QueueServiceProvider extends ServiceProvider implements DeferrableProvider
     }
 
     /**
-     * Register the database queue connector.
+     * Subscribe the database queue connector.
      *
      * @param  \Illuminate\Queue\QueueManager  $manager
      * @return void
@@ -118,7 +118,7 @@ class QueueServiceProvider extends ServiceProvider implements DeferrableProvider
     }
 
     /**
-     * Register the Redis queue connector.
+     * Subscribe the Redis queue connector.
      *
      * @param  \Illuminate\Queue\QueueManager  $manager
      * @return void
@@ -131,7 +131,7 @@ class QueueServiceProvider extends ServiceProvider implements DeferrableProvider
     }
 
     /**
-     * Register the Beanstalkd queue connector.
+     * Subscribe the Beanstalkd queue connector.
      *
      * @param  \Illuminate\Queue\QueueManager  $manager
      * @return void
@@ -144,7 +144,7 @@ class QueueServiceProvider extends ServiceProvider implements DeferrableProvider
     }
 
     /**
-     * Register the Amazon SQS queue connector.
+     * Subscribe the Amazon SQS queue connector.
      *
      * @param  \Illuminate\Queue\QueueManager  $manager
      * @return void
@@ -157,7 +157,7 @@ class QueueServiceProvider extends ServiceProvider implements DeferrableProvider
     }
 
     /**
-     * Register the queue worker.
+     * Subscribe the queue worker.
      *
      * @return void
      */
@@ -178,7 +178,7 @@ class QueueServiceProvider extends ServiceProvider implements DeferrableProvider
     }
 
     /**
-     * Register the queue listener.
+     * Subscribe the queue listener.
      *
      * @return void
      */
@@ -190,7 +190,7 @@ class QueueServiceProvider extends ServiceProvider implements DeferrableProvider
     }
 
     /**
-     * Register the failed job services.
+     * Subscribe the failed job services.
      *
      * @return void
      */

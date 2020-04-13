@@ -281,7 +281,7 @@ abstract class Swift_Transport_AbstractSmtpTransport implements Swift_Transport
     }
 
     /**
-     * Register a plugin.
+     * Subscribe a plugin.
      */
     public function registerPlugin(Swift_Events_EventListener $plugin)
     {

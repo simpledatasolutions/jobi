@@ -1920,7 +1920,7 @@ interface CarbonInterface extends DateTimeInterface, JsonSerializable
     public static function fromSerialized($value);
 
     /**
-     * Register a custom macro.
+     * Subscribe a custom macro.
      *
      * @param object|callable $macro
      * @param int             $priority marco with higher priority is tried first
@@ -3036,7 +3036,7 @@ interface CarbonInterface extends DateTimeInterface, JsonSerializable
     public function lte($date): bool;
 
     /**
-     * Register a custom macro.
+     * Subscribe a custom macro.
      *
      * @example
      * ```

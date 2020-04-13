@@ -150,7 +150,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     ];
 
     /**
-     * Register the service provider.
+     * Subscribe the service provider.
      *
      * @return void
      */
@@ -162,7 +162,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the given commands.
+     * Subscribe the given commands.
      *
      * @param  array  $commands
      * @return void
@@ -177,7 +177,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -189,7 +189,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -201,7 +201,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -213,7 +213,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -225,7 +225,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -237,7 +237,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -249,7 +249,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -261,7 +261,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -273,7 +273,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -285,7 +285,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -297,7 +297,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -309,7 +309,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -321,7 +321,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -333,7 +333,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -345,7 +345,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -357,7 +357,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -369,7 +369,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -381,7 +381,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -393,7 +393,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -405,7 +405,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -417,7 +417,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -429,7 +429,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -441,7 +441,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -453,7 +453,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -465,7 +465,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -477,7 +477,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -489,7 +489,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -501,7 +501,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -513,7 +513,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -525,7 +525,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -537,7 +537,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -549,7 +549,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -561,7 +561,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -573,7 +573,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -585,7 +585,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -597,7 +597,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -609,7 +609,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -621,7 +621,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -633,7 +633,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -645,7 +645,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -657,7 +657,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -669,7 +669,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -681,7 +681,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -693,7 +693,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -705,7 +705,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -717,7 +717,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -729,7 +729,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -741,7 +741,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -753,7 +753,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -765,7 +765,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -777,7 +777,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -789,7 +789,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -801,7 +801,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -813,7 +813,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -825,7 +825,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -835,7 +835,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -845,7 +845,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -857,7 +857,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -869,7 +869,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -881,7 +881,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -893,7 +893,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -905,7 +905,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -917,7 +917,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */

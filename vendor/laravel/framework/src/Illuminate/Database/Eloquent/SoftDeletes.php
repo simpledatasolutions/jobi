@@ -135,7 +135,7 @@ trait SoftDeletes
     }
 
     /**
-     * Register a restoring model event with the dispatcher.
+     * Subscribe a restoring model event with the dispatcher.
      *
      * @param  \Closure|string  $callback
      * @return void
@@ -146,7 +146,7 @@ trait SoftDeletes
     }
 
     /**
-     * Register a restored model event with the dispatcher.
+     * Subscribe a restored model event with the dispatcher.
      *
      * @param  \Closure|string  $callback
      * @return void

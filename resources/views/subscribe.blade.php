@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-<title>Register | Jobi Tax</title>
+<title>Subscribe | Jobi Tax</title>
 @endsection
 
 @section('is-active-reg')
@@ -10,13 +10,13 @@ class="active"
 
 @section('content')
 
-<div id="register-page">
+<div id="subscribe-page">
     <hr>
     <div class="container">
         <br><br><br>
         <br><br><br>
         <br><br><br>
-        <form id="registerForm">
+        <form id="subscribeForm">
             <h5>Let me know when Jobi Is live!</h5>
             <div class="row mt-3">
                 <div class="col-md-3 mb-1">

@@ -412,7 +412,7 @@ class Handler implements ExceptionHandlerContract
     }
 
     /**
-     * Register the error template hint paths.
+     * Subscribe the error template hint paths.
      *
      * @return void
      */

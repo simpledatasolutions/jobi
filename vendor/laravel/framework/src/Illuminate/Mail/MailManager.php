@@ -438,7 +438,7 @@ class MailManager implements FactoryContract
     }
 
     /**
-     * Register a custom transport creator Closure.
+     * Subscribe a custom transport creator Closure.
      *
      * @param  string  $driver
      * @param  \Closure  $callback

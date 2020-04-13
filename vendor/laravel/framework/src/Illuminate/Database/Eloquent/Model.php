@@ -1008,7 +1008,7 @@ abstract class Model implements Arrayable, ArrayAccess, Jsonable, JsonSerializab
     }
 
     /**
-     * Register the global scopes for this builder instance.
+     * Subscribe the global scopes for this builder instance.
      *
      * @param  \Illuminate\Database\Eloquent\Builder  $builder
      * @return \Illuminate\Database\Eloquent\Builder

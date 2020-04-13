@@ -485,7 +485,7 @@ class Event
     }
 
     /**
-     * Register a callback to ping a given URL before the job runs.
+     * Subscribe a callback to ping a given URL before the job runs.
      *
      * @param  string  $url
      * @return $this
@@ -496,7 +496,7 @@ class Event
     }
 
     /**
-     * Register a callback to ping a given URL before the job runs if the given condition is true.
+     * Subscribe a callback to ping a given URL before the job runs if the given condition is true.
      *
      * @param  bool  $value
      * @param  string  $url
@@ -508,7 +508,7 @@ class Event
     }
 
     /**
-     * Register a callback to ping a given URL after the job runs.
+     * Subscribe a callback to ping a given URL after the job runs.
      *
      * @param  string  $url
      * @return $this
@@ -519,7 +519,7 @@ class Event
     }
 
     /**
-     * Register a callback to ping a given URL after the job runs if the given condition is true.
+     * Subscribe a callback to ping a given URL after the job runs if the given condition is true.
      *
      * @param  bool  $value
      * @param  string  $url
@@ -531,7 +531,7 @@ class Event
     }
 
     /**
-     * Register a callback to ping a given URL if the operation succeeds.
+     * Subscribe a callback to ping a given URL if the operation succeeds.
      *
      * @param  string  $url
      * @return $this
@@ -542,7 +542,7 @@ class Event
     }
 
     /**
-     * Register a callback to ping a given URL if the operation fails.
+     * Subscribe a callback to ping a given URL if the operation fails.
      *
      * @param  string  $url
      * @return $this
@@ -651,7 +651,7 @@ class Event
     }
 
     /**
-     * Register a callback to further filter the schedule.
+     * Subscribe a callback to further filter the schedule.
      *
      * @param  \Closure|bool  $callback
      * @return $this
@@ -666,7 +666,7 @@ class Event
     }
 
     /**
-     * Register a callback to further filter the schedule.
+     * Subscribe a callback to further filter the schedule.
      *
      * @param  \Closure|bool  $callback
      * @return $this
@@ -681,7 +681,7 @@ class Event
     }
 
     /**
-     * Register a callback to be called before the operation.
+     * Subscribe a callback to be called before the operation.
      *
      * @param  \Closure  $callback
      * @return $this
@@ -694,7 +694,7 @@ class Event
     }
 
     /**
-     * Register a callback to be called after the operation.
+     * Subscribe a callback to be called after the operation.
      *
      * @param  \Closure  $callback
      * @return $this
@@ -705,7 +705,7 @@ class Event
     }
 
     /**
-     * Register a callback to be called after the operation.
+     * Subscribe a callback to be called after the operation.
      *
      * @param  \Closure  $callback
      * @return $this
@@ -718,7 +718,7 @@ class Event
     }
 
     /**
-     * Register a callback to be called if the operation succeeds.
+     * Subscribe a callback to be called if the operation succeeds.
      *
      * @param  \Closure  $callback
      * @return $this
@@ -733,7 +733,7 @@ class Event
     }
 
     /**
-     * Register a callback to be called if the operation fails.
+     * Subscribe a callback to be called if the operation fails.
      *
      * @param  \Closure  $callback
      * @return $this

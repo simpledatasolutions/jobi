@@ -17,7 +17,7 @@ use Symfony\Bridge\PsrHttpMessage\Factory\PsrHttpFactory;
 class RoutingServiceProvider extends ServiceProvider
 {
     /**
-     * Register the service provider.
+     * Subscribe the service provider.
      *
      * @return void
      */
@@ -33,7 +33,7 @@ class RoutingServiceProvider extends ServiceProvider
     }
 
     /**
-     * Register the router instance.
+     * Subscribe the router instance.
      *
      * @return void
      */
@@ -45,7 +45,7 @@ class RoutingServiceProvider extends ServiceProvider
     }
 
     /**
-     * Register the URL generator service.
+     * Subscribe the URL generator service.
      *
      * @return void
      */
@@ -102,7 +102,7 @@ class RoutingServiceProvider extends ServiceProvider
     }
 
     /**
-     * Register the Redirector service.
+     * Subscribe the Redirector service.
      *
      * @return void
      */
@@ -123,7 +123,7 @@ class RoutingServiceProvider extends ServiceProvider
     }
 
     /**
-     * Register a binding for the PSR-7 request implementation.
+     * Subscribe a binding for the PSR-7 request implementation.
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class RoutingServiceProvider extends ServiceProvider
     }
 
     /**
-     * Register a binding for the PSR-7 response implementation.
+     * Subscribe a binding for the PSR-7 response implementation.
      *
      * @return void
      */
@@ -158,7 +158,7 @@ class RoutingServiceProvider extends ServiceProvider
     }
 
     /**
-     * Register the response factory implementation.
+     * Subscribe the response factory implementation.
      *
      * @return void
      */
@@ -170,7 +170,7 @@ class RoutingServiceProvider extends ServiceProvider
     }
 
     /**
-     * Register the controller dispatcher.
+     * Subscribe the controller dispatcher.
      *
      * @return void
      */

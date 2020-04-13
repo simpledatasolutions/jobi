@@ -495,7 +495,7 @@ class Migrator
     }
 
     /**
-     * Register a custom migration path.
+     * Subscribe a custom migration path.
      *
      * @param  string  $path
      * @return void

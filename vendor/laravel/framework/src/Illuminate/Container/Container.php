@@ -212,7 +212,7 @@ class Container implements ArrayAccess, ContainerContract
     }
 
     /**
-     * Register a binding with the container.
+     * Subscribe a binding with the container.
      *
      * @param  string  $abstract
      * @param  \Closure|string|null  $concrete
@@ -331,7 +331,7 @@ class Container implements ArrayAccess, ContainerContract
     }
 
     /**
-     * Register a binding if it hasn't already been registered.
+     * Subscribe a binding if it hasn't already been registered.
      *
      * @param  string  $abstract
      * @param  \Closure|string|null  $concrete
@@ -346,7 +346,7 @@ class Container implements ArrayAccess, ContainerContract
     }
 
     /**
-     * Register a shared binding in the container.
+     * Subscribe a shared binding in the container.
      *
      * @param  string  $abstract
      * @param  \Closure|string|null  $concrete
@@ -358,7 +358,7 @@ class Container implements ArrayAccess, ContainerContract
     }
 
     /**
-     * Register a shared binding if it hasn't already been registered.
+     * Subscribe a shared binding if it hasn't already been registered.
      *
      * @param  string  $abstract
      * @param  \Closure|string|null  $concrete
@@ -398,7 +398,7 @@ class Container implements ArrayAccess, ContainerContract
     }
 
     /**
-     * Register an existing instance as shared in the container.
+     * Subscribe an existing instance as shared in the container.
      *
      * @param  string  $abstract
      * @param  mixed  $instance
@@ -996,7 +996,7 @@ class Container implements ArrayAccess, ContainerContract
     }
 
     /**
-     * Register a new resolving callback.
+     * Subscribe a new resolving callback.
      *
      * @param  \Closure|string  $abstract
      * @param  \Closure|null  $callback
@@ -1016,7 +1016,7 @@ class Container implements ArrayAccess, ContainerContract
     }
 
     /**
-     * Register a new after resolving callback for all types.
+     * Subscribe a new after resolving callback for all types.
      *
      * @param  \Closure|string  $abstract
      * @param  \Closure|null  $callback

@@ -131,7 +131,7 @@ class Application extends SymfonyApplication implements ApplicationContract
     }
 
     /**
-     * Register a console "starting" bootstrapper.
+     * Subscribe a console "starting" bootstrapper.
      *
      * @param  \Closure  $callback
      * @return void

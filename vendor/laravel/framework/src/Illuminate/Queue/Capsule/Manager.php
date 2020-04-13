@@ -63,7 +63,7 @@ class Manager
     }
 
     /**
-     * Register the default connectors that the component ships with.
+     * Subscribe the default connectors that the component ships with.
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class Manager
     }
 
     /**
-     * Register a connection with the manager.
+     * Subscribe a connection with the manager.
      *
      * @param  array  $config
      * @param  string  $name

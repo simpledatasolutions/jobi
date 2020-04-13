@@ -656,7 +656,7 @@ class Expectation implements ExpectationInterface
     }
 
     /**
-     * Register values to be set to a public property each time this expectation occurs
+     * Subscribe values to be set to a public property each time this expectation occurs
      *
      * @param string $name
      * @param array ...$values

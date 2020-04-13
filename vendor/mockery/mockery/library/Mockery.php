@@ -960,7 +960,7 @@ class Mockery
     }
 
     /**
-     * Register a file to be deleted on tearDown.
+     * Subscribe a file to be deleted on tearDown.
      *
      * @param string $fileName
      */

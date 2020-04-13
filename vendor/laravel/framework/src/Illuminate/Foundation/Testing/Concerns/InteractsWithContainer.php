@@ -16,7 +16,7 @@ trait InteractsWithContainer
     protected $originalMix;
 
     /**
-     * Register an instance of an object in the container.
+     * Subscribe an instance of an object in the container.
      *
      * @param  string  $abstract
      * @param  object  $instance
@@ -28,7 +28,7 @@ trait InteractsWithContainer
     }
 
     /**
-     * Register an instance of an object in the container.
+     * Subscribe an instance of an object in the container.
      *
      * @param  string  $abstract
      * @param  object  $instance
@@ -78,7 +78,7 @@ trait InteractsWithContainer
     }
 
     /**
-     * Register an empty handler for Laravel Mix in the container.
+     * Subscribe an empty handler for Laravel Mix in the container.
      *
      * @return $this
      */
@@ -96,7 +96,7 @@ trait InteractsWithContainer
     }
 
     /**
-     * Register an empty handler for Laravel Mix in the container.
+     * Subscribe an empty handler for Laravel Mix in the container.
      *
      * @return $this
      */

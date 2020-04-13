@@ -146,7 +146,7 @@ class Worker
     }
 
     /**
-     * Register the worker timeout handler.
+     * Subscribe the worker timeout handler.
      *
      * @param  \Illuminate\Contracts\Queue\Job|null  $job
      * @param  \Illuminate\Queue\WorkerOptions  $options

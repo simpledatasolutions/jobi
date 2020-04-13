@@ -144,7 +144,7 @@ class AliasLoader
     }
 
     /**
-     * Register the loader on the auto-loader stack.
+     * Subscribe the loader on the auto-loader stack.
      *
      * @return void
      */

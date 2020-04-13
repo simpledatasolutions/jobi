@@ -41,7 +41,7 @@ interface Gate
     public function policy($class, $policy);
 
     /**
-     * Register a callback to run before all Gate checks.
+     * Subscribe a callback to run before all Gate checks.
      *
      * @param  callable  $callback
      * @return $this
@@ -49,7 +49,7 @@ interface Gate
     public function before(callable $callback);
 
     /**
-     * Register a callback to run after all Gate checks.
+     * Subscribe a callback to run after all Gate checks.
      *
      * @param  callable  $callback
      * @return $this

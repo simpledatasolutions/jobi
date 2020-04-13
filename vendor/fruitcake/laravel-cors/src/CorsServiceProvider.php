@@ -10,7 +10,7 @@ use Laravel\Lumen\Application as LumenApplication;
 class CorsServiceProvider extends BaseServiceProvider
 {
     /**
-     * Register the service provider.
+     * Subscribe the service provider.
      *
      * @return void
      */
@@ -58,7 +58,7 @@ class CorsServiceProvider extends BaseServiceProvider
     }
 
     /**
-     * Register the config for publishing
+     * Subscribe the config for publishing
      *
      */
     public function boot()

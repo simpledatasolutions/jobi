@@ -35,7 +35,7 @@ class MigrationServiceProvider extends ServiceProvider implements DeferrableProv
     ];
 
     /**
-     * Register the service provider.
+     * Subscribe the service provider.
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class MigrationServiceProvider extends ServiceProvider implements DeferrableProv
     }
 
     /**
-     * Register the migration repository service.
+     * Subscribe the migration repository service.
      *
      * @return void
      */
@@ -65,7 +65,7 @@ class MigrationServiceProvider extends ServiceProvider implements DeferrableProv
     }
 
     /**
-     * Register the migrator service.
+     * Subscribe the migrator service.
      *
      * @return void
      */
@@ -82,7 +82,7 @@ class MigrationServiceProvider extends ServiceProvider implements DeferrableProv
     }
 
     /**
-     * Register the migration creator.
+     * Subscribe the migration creator.
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class MigrationServiceProvider extends ServiceProvider implements DeferrableProv
     }
 
     /**
-     * Register the given commands.
+     * Subscribe the given commands.
      *
      * @param  array  $commands
      * @return void
@@ -109,7 +109,7 @@ class MigrationServiceProvider extends ServiceProvider implements DeferrableProv
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -121,7 +121,7 @@ class MigrationServiceProvider extends ServiceProvider implements DeferrableProv
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class MigrationServiceProvider extends ServiceProvider implements DeferrableProv
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -145,7 +145,7 @@ class MigrationServiceProvider extends ServiceProvider implements DeferrableProv
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -164,7 +164,7 @@ class MigrationServiceProvider extends ServiceProvider implements DeferrableProv
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class MigrationServiceProvider extends ServiceProvider implements DeferrableProv
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -188,7 +188,7 @@ class MigrationServiceProvider extends ServiceProvider implements DeferrableProv
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */
@@ -200,7 +200,7 @@ class MigrationServiceProvider extends ServiceProvider implements DeferrableProv
     }
 
     /**
-     * Register the command.
+     * Subscribe the command.
      *
      * @return void
      */

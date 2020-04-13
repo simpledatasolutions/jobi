@@ -143,7 +143,7 @@ class Highlighter
     }
 
     /**
-     * Register a language definition with the Highlighter's internal language
+     * Subscribe a language definition with the Highlighter's internal language
      * storage. Languages are stored in a static variable, so they'll be available
      * across all instances. You only need to register a language once.
      *

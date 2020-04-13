@@ -37,7 +37,7 @@ abstract class Broadcaster implements BroadcasterContract
     protected $bindingRegistrar;
 
     /**
-     * Register a channel authenticator.
+     * Subscribe a channel authenticator.
      *
      * @param  string  $channel
      * @param  callable|string  $callback

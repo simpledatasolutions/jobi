@@ -8,7 +8,7 @@ use Illuminate\Support\ServiceProvider;
 class SessionServiceProvider extends ServiceProvider
 {
     /**
-     * Register the service provider.
+     * Subscribe the service provider.
      *
      * @return void
      */
@@ -22,7 +22,7 @@ class SessionServiceProvider extends ServiceProvider
     }
 
     /**
-     * Register the session manager instance.
+     * Subscribe the session manager instance.
      *
      * @return void
      */
@@ -34,7 +34,7 @@ class SessionServiceProvider extends ServiceProvider
     }
 
     /**
-     * Register the session driver instance.
+     * Subscribe the session driver instance.
      *
      * @return void
      */

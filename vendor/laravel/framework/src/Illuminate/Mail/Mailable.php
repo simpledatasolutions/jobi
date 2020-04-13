@@ -844,7 +844,7 @@ class Mailable implements MailableContract, Renderable
     }
 
     /**
-     * Register a callback to be called with the Swift message instance.
+     * Subscribe a callback to be called with the Swift message instance.
      *
      * @param  callable  $callback
      * @return $this
@@ -857,7 +857,7 @@ class Mailable implements MailableContract, Renderable
     }
 
     /**
-     * Register a callback to be called while building the view data.
+     * Subscribe a callback to be called while building the view data.
      *
      * @param  callable  $callback
      * @return void

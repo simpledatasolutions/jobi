@@ -177,7 +177,7 @@ class Logger implements LoggerInterface
     }
 
     /**
-     * Register a new callback handler for when a log event is triggered.
+     * Subscribe a new callback handler for when a log event is triggered.
      *
      * @param  \Closure  $callback
      * @return void

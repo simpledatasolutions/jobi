@@ -9,7 +9,7 @@ use Symfony\Component\Cache\Adapter\Psr16Adapter;
 class CacheServiceProvider extends ServiceProvider implements DeferrableProvider
 {
     /**
-     * Register the service provider.
+     * Subscribe the service provider.
      *
      * @return void
      */

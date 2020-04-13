@@ -8,7 +8,7 @@ use Illuminate\Support\ServiceProvider;
 class ValidationServiceProvider extends ServiceProvider implements DeferrableProvider
 {
     /**
-     * Register the service provider.
+     * Subscribe the service provider.
      *
      * @return void
      */
@@ -20,7 +20,7 @@ class ValidationServiceProvider extends ServiceProvider implements DeferrablePro
     }
 
     /**
-     * Register the validation factory.
+     * Subscribe the validation factory.
      *
      * @return void
      */
@@ -41,7 +41,7 @@ class ValidationServiceProvider extends ServiceProvider implements DeferrablePro
     }
 
     /**
-     * Register the database presence verifier.
+     * Subscribe the database presence verifier.
      *
      * @return void
      */

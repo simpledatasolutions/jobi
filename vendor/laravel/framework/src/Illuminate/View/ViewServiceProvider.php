@@ -12,7 +12,7 @@ use Illuminate\View\Engines\PhpEngine;
 class ViewServiceProvider extends ServiceProvider
 {
     /**
-     * Register the service provider.
+     * Subscribe the service provider.
      *
      * @return void
      */
@@ -28,7 +28,7 @@ class ViewServiceProvider extends ServiceProvider
     }
 
     /**
-     * Register the view environment.
+     * Subscribe the view environment.
      *
      * @return void
      */
@@ -69,7 +69,7 @@ class ViewServiceProvider extends ServiceProvider
     }
 
     /**
-     * Register the view finder implementation.
+     * Subscribe the view finder implementation.
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class ViewServiceProvider extends ServiceProvider
     }
 
     /**
-     * Register the Blade compiler implementation.
+     * Subscribe the Blade compiler implementation.
      *
      * @return void
      */
@@ -93,7 +93,7 @@ class ViewServiceProvider extends ServiceProvider
     }
 
     /**
-     * Register the engine resolver instance.
+     * Subscribe the engine resolver instance.
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class ViewServiceProvider extends ServiceProvider
     }
 
     /**
-     * Register the file engine implementation.
+     * Subscribe the file engine implementation.
      *
      * @param  \Illuminate\View\Engines\EngineResolver  $resolver
      * @return void
@@ -127,7 +127,7 @@ class ViewServiceProvider extends ServiceProvider
     }
 
     /**
-     * Register the PHP engine implementation.
+     * Subscribe the PHP engine implementation.
      *
      * @param  \Illuminate\View\Engines\EngineResolver  $resolver
      * @return void
@@ -140,7 +140,7 @@ class ViewServiceProvider extends ServiceProvider
     }
 
     /**
-     * Register the Blade engine implementation.
+     * Subscribe the Blade engine implementation.
      *
      * @param  \Illuminate\View\Engines\EngineResolver  $resolver
      * @return void

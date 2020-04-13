@@ -58,7 +58,7 @@ final class Run implements RunInterface
     }
 
     /**
-     * Register your handler as the last of all currently registered handlers.
+     * Subscribe your handler as the last of all currently registered handlers.
      * Prefer using appendHandler and prependHandler for clarity.
      *
      * @throws InvalidArgumentException  If argument is not callable or instance of HandlerInterface

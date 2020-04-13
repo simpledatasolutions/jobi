@@ -8,7 +8,7 @@ use Illuminate\Support\ServiceProvider;
 class TranslationServiceProvider extends ServiceProvider implements DeferrableProvider
 {
     /**
-     * Register the service provider.
+     * Subscribe the service provider.
      *
      * @return void
      */
@@ -33,7 +33,7 @@ class TranslationServiceProvider extends ServiceProvider implements DeferrablePr
     }
 
     /**
-     * Register the translation line loader.
+     * Subscribe the translation line loader.
      *
      * @return void
      */

@@ -601,7 +601,7 @@ class SessionGuard implements StatefulGuard, SupportsBasicAuth
     }
 
     /**
-     * Register an authentication attempt event listener.
+     * Subscribe an authentication attempt event listener.
      *
      * @param  mixed  $callback
      * @return void

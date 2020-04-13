@@ -162,7 +162,7 @@ trait DatabaseRule
     }
 
     /**
-     * Register a custom query callback.
+     * Subscribe a custom query callback.
      *
      * @param  \Closure  $callback
      * @return $this

@@ -981,7 +981,7 @@ class Validator implements ValidatorContract
     }
 
     /**
-     * Register an array of custom validator extensions.
+     * Subscribe an array of custom validator extensions.
      *
      * @param  array  $extensions
      * @return void
@@ -998,7 +998,7 @@ class Validator implements ValidatorContract
     }
 
     /**
-     * Register an array of custom implicit validator extensions.
+     * Subscribe an array of custom implicit validator extensions.
      *
      * @param  array  $extensions
      * @return void
@@ -1013,7 +1013,7 @@ class Validator implements ValidatorContract
     }
 
     /**
-     * Register an array of custom dependent validator extensions.
+     * Subscribe an array of custom dependent validator extensions.
      *
      * @param  array  $extensions
      * @return void
@@ -1028,7 +1028,7 @@ class Validator implements ValidatorContract
     }
 
     /**
-     * Register a custom validator extension.
+     * Subscribe a custom validator extension.
      *
      * @param  string  $rule
      * @param  \Closure|string  $extension
@@ -1040,7 +1040,7 @@ class Validator implements ValidatorContract
     }
 
     /**
-     * Register a custom implicit validator extension.
+     * Subscribe a custom implicit validator extension.
      *
      * @param  string  $rule
      * @param  \Closure|string  $extension
@@ -1054,7 +1054,7 @@ class Validator implements ValidatorContract
     }
 
     /**
-     * Register a custom dependent validator extension.
+     * Subscribe a custom dependent validator extension.
      *
      * @param  string  $rule
      * @param  \Closure|string  $extension
@@ -1068,7 +1068,7 @@ class Validator implements ValidatorContract
     }
 
     /**
-     * Register an array of custom validator message replacers.
+     * Subscribe an array of custom validator message replacers.
      *
      * @param  array  $replacers
      * @return void
@@ -1085,7 +1085,7 @@ class Validator implements ValidatorContract
     }
 
     /**
-     * Register a custom validator message replacer.
+     * Subscribe a custom validator message replacer.
      *
      * @param  string  $rule
      * @param  \Closure|string  $replacer

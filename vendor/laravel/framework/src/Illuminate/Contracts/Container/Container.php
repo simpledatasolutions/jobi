@@ -44,7 +44,7 @@ interface Container extends ContainerInterface
     public function tagged($tag);
 
     /**
-     * Register a binding with the container.
+     * Subscribe a binding with the container.
      *
      * @param  string  $abstract
      * @param  \Closure|string|null  $concrete
@@ -54,7 +54,7 @@ interface Container extends ContainerInterface
     public function bind($abstract, $concrete = null, $shared = false);
 
     /**
-     * Register a binding if it hasn't already been registered.
+     * Subscribe a binding if it hasn't already been registered.
      *
      * @param  string  $abstract
      * @param  \Closure|string|null  $concrete
@@ -64,7 +64,7 @@ interface Container extends ContainerInterface
     public function bindIf($abstract, $concrete = null, $shared = false);
 
     /**
-     * Register a shared binding in the container.
+     * Subscribe a shared binding in the container.
      *
      * @param  string  $abstract
      * @param  \Closure|string|null  $concrete
@@ -73,7 +73,7 @@ interface Container extends ContainerInterface
     public function singleton($abstract, $concrete = null);
 
     /**
-     * Register a shared binding if it hasn't already been registered.
+     * Subscribe a shared binding if it hasn't already been registered.
      *
      * @param  string  $abstract
      * @param  \Closure|string|null  $concrete
@@ -93,7 +93,7 @@ interface Container extends ContainerInterface
     public function extend($abstract, Closure $closure);
 
     /**
-     * Register an existing instance as shared in the container.
+     * Subscribe an existing instance as shared in the container.
      *
      * @param  string  $abstract
      * @param  mixed  $instance
@@ -164,7 +164,7 @@ interface Container extends ContainerInterface
     public function resolved($abstract);
 
     /**
-     * Register a new resolving callback.
+     * Subscribe a new resolving callback.
      *
      * @param  \Closure|string  $abstract
      * @param  \Closure|null  $callback
@@ -173,7 +173,7 @@ interface Container extends ContainerInterface
     public function resolving($abstract, Closure $callback = null);
 
     /**
-     * Register a new after resolving callback.
+     * Subscribe a new after resolving callback.
      *
      * @param  \Closure|string  $abstract
      * @param  \Closure|null  $callback

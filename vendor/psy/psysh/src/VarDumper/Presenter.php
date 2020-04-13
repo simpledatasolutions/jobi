@@ -73,7 +73,7 @@ class Presenter
     }
 
     /**
-     * Register casters.
+     * Subscribe casters.
      *
      * @see http://symfony.com/doc/current/components/var_dumper/advanced.html#casters
      *

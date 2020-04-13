@@ -2,7 +2,7 @@
 
 <head>
   @yield('title')
-  
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -12,7 +12,7 @@
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" href="{{ asset('app/css/app.css') }}">
   <link rel="stylesheet" href="{{ asset('app/css/home.css') }}">
-  <link rel="stylesheet" href="{{ asset('app/css/register.css') }}">
+  <link rel="stylesheet" href="{{ asset('app/css/subscribe.css') }}">
   <link rel="stylesheet" href="{{ asset('app/css/apply.css') }}">
   <link rel="stylesheet" href="{{ asset('app/css/about.css') }}">
 
@@ -38,7 +38,7 @@
 
   <div id="main-content" style="display:none;">
       @yield('content')
-    
+
 
     <div class="text-center" id="footer">
       <br><br>
@@ -57,7 +57,7 @@
     $("#main-content").delay(10).fadeIn(1000)
   });
 </script>
-<script src="{{ asset('app/js/register.js') }}" type="text/javascript"></script>
+<script src="{{ asset('app/js/subscribe.js') }}" type="text/javascript"></script>
 <script src="{{ asset('app/js/apply.js') }}" type="text/javascript"></script>
 
 </html>

@@ -17,7 +17,7 @@ use Monolog\Utils;
 /**
  * IFTTTHandler uses cURL to trigger IFTTT Maker actions
  *
- * Register a secret key and trigger/event name at https://ifttt.com/maker
+ * Subscribe a secret key and trigger/event name at https://ifttt.com/maker
  *
  * value1 will be the channel from monolog's Logger constructor,
  * value2 will be the level name (ERROR, WARNING, ..)

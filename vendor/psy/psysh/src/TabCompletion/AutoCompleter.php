@@ -24,7 +24,7 @@ class AutoCompleter
     protected $matchers;
 
     /**
-     * Register a tab completion Matcher.
+     * Subscribe a tab completion Matcher.
      *
      * @param AbstractMatcher $matcher
      */

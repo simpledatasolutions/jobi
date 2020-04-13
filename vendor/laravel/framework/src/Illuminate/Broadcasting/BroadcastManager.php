@@ -53,7 +53,7 @@ class BroadcastManager implements FactoryContract
     }
 
     /**
-     * Register the routes for handling broadcast authentication and sockets.
+     * Subscribe the routes for handling broadcast authentication and sockets.
      *
      * @param  array|null  $attributes
      * @return void
@@ -295,7 +295,7 @@ class BroadcastManager implements FactoryContract
     }
 
     /**
-     * Register a custom driver creator Closure.
+     * Subscribe a custom driver creator Closure.
      *
      * @param  string  $driver
      * @param  \Closure  $callback

@@ -9,7 +9,7 @@ use Illuminate\Support\Str;
 trait ManagesEvents
 {
     /**
-     * Register a view creator event.
+     * Subscribe a view creator event.
      *
      * @param  array|string  $views
      * @param  \Closure|string  $callback
@@ -27,7 +27,7 @@ trait ManagesEvents
     }
 
     /**
-     * Register multiple view composers via an array.
+     * Subscribe multiple view composers via an array.
      *
      * @param  array  $composers
      * @return array
@@ -44,7 +44,7 @@ trait ManagesEvents
     }
 
     /**
-     * Register a view composer event.
+     * Subscribe a view composer event.
      *
      * @param  array|string  $views
      * @param  \Closure|string  $callback
@@ -83,7 +83,7 @@ trait ManagesEvents
     }
 
     /**
-     * Register a class based view composer.
+     * Subscribe a class based view composer.
      *
      * @param  string  $view
      * @param  string  $class

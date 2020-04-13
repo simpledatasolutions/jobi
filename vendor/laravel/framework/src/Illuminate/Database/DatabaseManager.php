@@ -305,7 +305,7 @@ class DatabaseManager implements ConnectionResolverInterface
     }
 
     /**
-     * Register an extension connection resolver.
+     * Subscribe an extension connection resolver.
      *
      * @param  string  $name
      * @param  callable  $resolver

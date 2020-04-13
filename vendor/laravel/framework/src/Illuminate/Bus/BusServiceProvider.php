@@ -11,7 +11,7 @@ use Illuminate\Support\ServiceProvider;
 class BusServiceProvider extends ServiceProvider implements DeferrableProvider
 {
     /**
-     * Register the service provider.
+     * Subscribe the service provider.
      *
      * @return void
      */

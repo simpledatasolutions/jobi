@@ -138,7 +138,7 @@ abstract class Connection
     }
 
     /**
-     * Register a Redis command listener with the connection.
+     * Subscribe a Redis command listener with the connection.
      *
      * @param  \Closure  $callback
      * @return void

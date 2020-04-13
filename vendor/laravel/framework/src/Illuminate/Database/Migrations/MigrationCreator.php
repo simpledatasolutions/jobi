@@ -191,7 +191,7 @@ class MigrationCreator
     }
 
     /**
-     * Register a post migration create hook.
+     * Subscribe a post migration create hook.
      *
      * @param  \Closure  $callback
      * @return void

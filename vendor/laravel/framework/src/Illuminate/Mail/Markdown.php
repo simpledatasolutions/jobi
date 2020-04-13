@@ -148,7 +148,7 @@ class Markdown
     }
 
     /**
-     * Register new mail component paths.
+     * Subscribe new mail component paths.
      *
      * @param  array  $paths
      * @return void

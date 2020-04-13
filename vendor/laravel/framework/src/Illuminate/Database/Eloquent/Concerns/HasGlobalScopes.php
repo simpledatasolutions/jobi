@@ -10,7 +10,7 @@ use InvalidArgumentException;
 trait HasGlobalScopes
 {
     /**
-     * Register a new global scope on the model.
+     * Subscribe a new global scope on the model.
      *
      * @param  \Illuminate\Database\Eloquent\Scope|\Closure|string  $scope
      * @param  \Closure|null  $implementation

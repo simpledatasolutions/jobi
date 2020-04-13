@@ -604,7 +604,7 @@ class PendingRequest
     }
 
     /**
-     * Register a stub callable that will intercept requests and be able to return stub responses.
+     * Subscribe a stub callable that will intercept requests and be able to return stub responses.
      *
      * @param  callable  $callback
      * @return $this

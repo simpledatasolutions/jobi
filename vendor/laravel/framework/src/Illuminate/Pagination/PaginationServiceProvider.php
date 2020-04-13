@@ -23,7 +23,7 @@ class PaginationServiceProvider extends ServiceProvider
     }
 
     /**
-     * Register the service provider.
+     * Subscribe the service provider.
      *
      * @return void
      */

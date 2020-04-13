@@ -196,7 +196,7 @@ abstract class TestCase extends BaseTestCase
     }
 
     /**
-     * Register a callback to be run after the application is created.
+     * Subscribe a callback to be run after the application is created.
      *
      * @param  callable  $callback
      * @return void
@@ -211,7 +211,7 @@ abstract class TestCase extends BaseTestCase
     }
 
     /**
-     * Register a callback to be run before the application is destroyed.
+     * Subscribe a callback to be run before the application is destroyed.
      *
      * @param  callable  $callback
      * @return void

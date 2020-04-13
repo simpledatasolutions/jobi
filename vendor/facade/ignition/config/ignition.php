@@ -45,7 +45,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Register Ignition commands
+    | Subscribe Ignition commands
     |--------------------------------------------------------------------------
     |
     | Ignition comes with an additional make command that lets you create

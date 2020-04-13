@@ -9,7 +9,7 @@ use Illuminate\Support\ServiceProvider;
 class PipelineServiceProvider extends ServiceProvider implements DeferrableProvider
 {
     /**
-     * Register the service provider.
+     * Subscribe the service provider.
      *
      * @return void
      */

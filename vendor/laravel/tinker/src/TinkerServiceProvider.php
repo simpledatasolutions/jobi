@@ -29,7 +29,7 @@ class TinkerServiceProvider extends ServiceProvider implements DeferrableProvide
     }
 
     /**
-     * Register the service provider.
+     * Subscribe the service provider.
      *
      * @return void
      */

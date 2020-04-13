@@ -134,7 +134,7 @@ class Router implements BindingRegistrar, RegistrarContract
     }
 
     /**
-     * Register a new GET route with the router.
+     * Subscribe a new GET route with the router.
      *
      * @param  string  $uri
      * @param  array|string|callable|null  $action
@@ -146,7 +146,7 @@ class Router implements BindingRegistrar, RegistrarContract
     }
 
     /**
-     * Register a new POST route with the router.
+     * Subscribe a new POST route with the router.
      *
      * @param  string  $uri
      * @param  array|string|callable|null  $action
@@ -158,7 +158,7 @@ class Router implements BindingRegistrar, RegistrarContract
     }
 
     /**
-     * Register a new PUT route with the router.
+     * Subscribe a new PUT route with the router.
      *
      * @param  string  $uri
      * @param  array|string|callable|null  $action
@@ -170,7 +170,7 @@ class Router implements BindingRegistrar, RegistrarContract
     }
 
     /**
-     * Register a new PATCH route with the router.
+     * Subscribe a new PATCH route with the router.
      *
      * @param  string  $uri
      * @param  array|string|callable|null  $action
@@ -182,7 +182,7 @@ class Router implements BindingRegistrar, RegistrarContract
     }
 
     /**
-     * Register a new DELETE route with the router.
+     * Subscribe a new DELETE route with the router.
      *
      * @param  string  $uri
      * @param  array|string|callable|null  $action
@@ -194,7 +194,7 @@ class Router implements BindingRegistrar, RegistrarContract
     }
 
     /**
-     * Register a new OPTIONS route with the router.
+     * Subscribe a new OPTIONS route with the router.
      *
      * @param  string  $uri
      * @param  array|string|callable|null  $action
@@ -206,7 +206,7 @@ class Router implements BindingRegistrar, RegistrarContract
     }
 
     /**
-     * Register a new route responding to all verbs.
+     * Subscribe a new route responding to all verbs.
      *
      * @param  string  $uri
      * @param  array|string|callable|null  $action
@@ -218,7 +218,7 @@ class Router implements BindingRegistrar, RegistrarContract
     }
 
     /**
-     * Register a new Fallback route with the router.
+     * Subscribe a new Fallback route with the router.
      *
      * @param  array|string|callable|null  $action
      * @return \Illuminate\Routing\Route
@@ -260,7 +260,7 @@ class Router implements BindingRegistrar, RegistrarContract
     }
 
     /**
-     * Register a new route that returns a view.
+     * Subscribe a new route that returns a view.
      *
      * @param  string  $uri
      * @param  string  $view
@@ -275,7 +275,7 @@ class Router implements BindingRegistrar, RegistrarContract
     }
 
     /**
-     * Register a new route with the given verbs.
+     * Subscribe a new route with the given verbs.
      *
      * @param  array|string  $methods
      * @param  string  $uri
@@ -288,7 +288,7 @@ class Router implements BindingRegistrar, RegistrarContract
     }
 
     /**
-     * Register an array of resource controllers.
+     * Subscribe an array of resource controllers.
      *
      * @param  array  $resources
      * @param  array  $options
@@ -323,7 +323,7 @@ class Router implements BindingRegistrar, RegistrarContract
     }
 
     /**
-     * Register an array of API resource controllers.
+     * Subscribe an array of API resource controllers.
      *
      * @param  array  $resources
      * @param  array  $options
@@ -808,7 +808,7 @@ class Router implements BindingRegistrar, RegistrarContract
     }
 
     /**
-     * Register a route matched event listener.
+     * Subscribe a route matched event listener.
      *
      * @param  string|callable  $callback
      * @return void
@@ -829,7 +829,7 @@ class Router implements BindingRegistrar, RegistrarContract
     }
 
     /**
-     * Register a short-hand name for a middleware.
+     * Subscribe a short-hand name for a middleware.
      *
      * @param  string  $name
      * @param  string  $class
@@ -864,7 +864,7 @@ class Router implements BindingRegistrar, RegistrarContract
     }
 
     /**
-     * Register a group of middleware.
+     * Subscribe a group of middleware.
      *
      * @param  string  $name
      * @param  array  $middleware
@@ -932,7 +932,7 @@ class Router implements BindingRegistrar, RegistrarContract
     }
 
     /**
-     * Register a model binder for a wildcard.
+     * Subscribe a model binder for a wildcard.
      *
      * @param  string  $key
      * @param  string  $class

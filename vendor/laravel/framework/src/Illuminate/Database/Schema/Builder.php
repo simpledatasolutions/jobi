@@ -311,7 +311,7 @@ class Builder
     }
 
     /**
-     * Register a custom Doctrine mapping type.
+     * Subscribe a custom Doctrine mapping type.
      *
      * @param  string  $class
      * @param  string  $name

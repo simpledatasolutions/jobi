@@ -5,7 +5,7 @@ namespace Illuminate\Contracts\Routing;
 interface Registrar
 {
     /**
-     * Register a new GET route with the router.
+     * Subscribe a new GET route with the router.
      *
      * @param  string  $uri
      * @param  array|string|callable  $action
@@ -14,7 +14,7 @@ interface Registrar
     public function get($uri, $action);
 
     /**
-     * Register a new POST route with the router.
+     * Subscribe a new POST route with the router.
      *
      * @param  string  $uri
      * @param  array|string|callable  $action
@@ -23,7 +23,7 @@ interface Registrar
     public function post($uri, $action);
 
     /**
-     * Register a new PUT route with the router.
+     * Subscribe a new PUT route with the router.
      *
      * @param  string  $uri
      * @param  array|string|callable  $action
@@ -32,7 +32,7 @@ interface Registrar
     public function put($uri, $action);
 
     /**
-     * Register a new DELETE route with the router.
+     * Subscribe a new DELETE route with the router.
      *
      * @param  string  $uri
      * @param  array|string|callable  $action
@@ -41,7 +41,7 @@ interface Registrar
     public function delete($uri, $action);
 
     /**
-     * Register a new PATCH route with the router.
+     * Subscribe a new PATCH route with the router.
      *
      * @param  string  $uri
      * @param  array|string|callable  $action
@@ -50,7 +50,7 @@ interface Registrar
     public function patch($uri, $action);
 
     /**
-     * Register a new OPTIONS route with the router.
+     * Subscribe a new OPTIONS route with the router.
      *
      * @param  string  $uri
      * @param  array|string|callable  $action
@@ -59,7 +59,7 @@ interface Registrar
     public function options($uri, $action);
 
     /**
-     * Register a new route with the given verbs.
+     * Subscribe a new route with the given verbs.
      *
      * @param  array|string  $methods
      * @param  string  $uri

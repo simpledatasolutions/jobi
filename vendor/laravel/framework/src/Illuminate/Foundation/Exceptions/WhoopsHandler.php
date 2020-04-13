@@ -25,7 +25,7 @@ class WhoopsHandler
     }
 
     /**
-     * Register the application paths with the handler.
+     * Subscribe the application paths with the handler.
      *
      * @param  \Whoops\Handler\PrettyPageHandler  $handler
      * @return $this
@@ -53,7 +53,7 @@ class WhoopsHandler
     }
 
     /**
-     * Register the blacklist with the handler.
+     * Subscribe the blacklist with the handler.
      *
      * @param  \Whoops\Handler\PrettyPageHandler  $handler
      * @return $this
@@ -70,7 +70,7 @@ class WhoopsHandler
     }
 
     /**
-     * Register the editor with the handler.
+     * Subscribe the editor with the handler.
      *
      * @param  \Whoops\Handler\PrettyPageHandler  $handler
      * @return $this

@@ -26,7 +26,7 @@ class DatabaseServiceProvider extends ServiceProvider
     }
 
     /**
-     * Register the service provider.
+     * Subscribe the service provider.
      *
      * @return void
      */
@@ -42,7 +42,7 @@ class DatabaseServiceProvider extends ServiceProvider
     }
 
     /**
-     * Register the primary database bindings.
+     * Subscribe the primary database bindings.
      *
      * @return void
      */
@@ -68,7 +68,7 @@ class DatabaseServiceProvider extends ServiceProvider
     }
 
     /**
-     * Register the Eloquent factory instance in the container.
+     * Subscribe the Eloquent factory instance in the container.
      *
      * @return void
      */
@@ -86,7 +86,7 @@ class DatabaseServiceProvider extends ServiceProvider
     }
 
     /**
-     * Register the queueable entity resolver implementation.
+     * Subscribe the queueable entity resolver implementation.
      *
      * @return void
      */

@@ -5,7 +5,7 @@ namespace Illuminate\Contracts\Events;
 interface Dispatcher
 {
     /**
-     * Register an event listener with the dispatcher.
+     * Subscribe an event listener with the dispatcher.
      *
      * @param  string|array  $events
      * @param  \Closure|string  $listener
@@ -22,7 +22,7 @@ interface Dispatcher
     public function hasListeners($eventName);
 
     /**
-     * Register an event subscriber with the dispatcher.
+     * Subscribe an event subscriber with the dispatcher.
      *
      * @param  object|string  $subscriber
      * @return void
@@ -49,7 +49,7 @@ interface Dispatcher
     public function dispatch($event, $payload = [], $halt = false);
 
     /**
-     * Register an event and payload to be fired later.
+     * Subscribe an event and payload to be fired later.
      *
      * @param  string  $event
      * @param  array  $payload

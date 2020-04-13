@@ -129,7 +129,7 @@ class EventFake implements Dispatcher
     }
 
     /**
-     * Register an event listener with the dispatcher.
+     * Subscribe an event listener with the dispatcher.
      *
      * @param  string|array  $events
      * @param  mixed  $listener
@@ -152,7 +152,7 @@ class EventFake implements Dispatcher
     }
 
     /**
-     * Register an event and payload to be dispatched later.
+     * Subscribe an event and payload to be dispatched later.
      *
      * @param  string  $event
      * @param  array  $payload
@@ -164,7 +164,7 @@ class EventFake implements Dispatcher
     }
 
     /**
-     * Register an event subscriber with the dispatcher.
+     * Subscribe an event subscriber with the dispatcher.
      *
      * @param  object|string  $subscriber
      * @return void

@@ -182,7 +182,7 @@ class Application extends Container implements ApplicationContract, CachesConfig
     }
 
     /**
-     * Register the basic bindings into the container.
+     * Subscribe the basic bindings into the container.
      *
      * @return void
      */
@@ -201,7 +201,7 @@ class Application extends Container implements ApplicationContract, CachesConfig
     }
 
     /**
-     * Register all of the base service providers.
+     * Subscribe all of the base service providers.
      *
      * @return void
      */
@@ -232,7 +232,7 @@ class Application extends Container implements ApplicationContract, CachesConfig
     }
 
     /**
-     * Register a callback to run after loading the environment.
+     * Subscribe a callback to run after loading the environment.
      *
      * @param  \Closure  $callback
      * @return void
@@ -245,7 +245,7 @@ class Application extends Container implements ApplicationContract, CachesConfig
     }
 
     /**
-     * Register a callback to run before a bootstrapper.
+     * Subscribe a callback to run before a bootstrapper.
      *
      * @param  string  $bootstrapper
      * @param  \Closure  $callback
@@ -257,7 +257,7 @@ class Application extends Container implements ApplicationContract, CachesConfig
     }
 
     /**
-     * Register a callback to run after a bootstrapper.
+     * Subscribe a callback to run after a bootstrapper.
      *
      * @param  string  $bootstrapper
      * @param  \Closure  $callback
@@ -585,7 +585,7 @@ class Application extends Container implements ApplicationContract, CachesConfig
     }
 
     /**
-     * Register all of the configured providers.
+     * Subscribe all of the configured providers.
      *
      * @return void
      */
@@ -603,7 +603,7 @@ class Application extends Container implements ApplicationContract, CachesConfig
     }
 
     /**
-     * Register a service provider with the application.
+     * Subscribe a service provider with the application.
      *
      * @param  \Illuminate\Support\ServiceProvider|string  $provider
      * @param  bool  $force
@@ -741,7 +741,7 @@ class Application extends Container implements ApplicationContract, CachesConfig
     }
 
     /**
-     * Register a deferred provider and service.
+     * Subscribe a deferred provider and service.
      *
      * @param  string  $provider
      * @param  string|null  $service
@@ -867,7 +867,7 @@ class Application extends Container implements ApplicationContract, CachesConfig
     }
 
     /**
-     * Register a new boot listener.
+     * Subscribe a new boot listener.
      *
      * @param  callable  $callback
      * @return void
@@ -878,7 +878,7 @@ class Application extends Container implements ApplicationContract, CachesConfig
     }
 
     /**
-     * Register a new "booted" listener.
+     * Subscribe a new "booted" listener.
      *
      * @param  callable  $callback
      * @return void
@@ -1066,7 +1066,7 @@ class Application extends Container implements ApplicationContract, CachesConfig
     }
 
     /**
-     * Register a terminating callback with the application.
+     * Subscribe a terminating callback with the application.
      *
      * @param  callable|string  $callback
      * @return $this
@@ -1191,7 +1191,7 @@ class Application extends Container implements ApplicationContract, CachesConfig
     }
 
     /**
-     * Register the core class aliases in the container.
+     * Subscribe the core class aliases in the container.
      *
      * @return void
      */

@@ -90,14 +90,14 @@ interface Application extends Container
     public function isDownForMaintenance();
 
     /**
-     * Register all of the configured providers.
+     * Subscribe all of the configured providers.
      *
      * @return void
      */
     public function registerConfiguredProviders();
 
     /**
-     * Register a service provider with the application.
+     * Subscribe a service provider with the application.
      *
      * @param  \Illuminate\Support\ServiceProvider|string  $provider
      * @param  bool  $force
@@ -106,7 +106,7 @@ interface Application extends Container
     public function register($provider, $force = false);
 
     /**
-     * Register a deferred provider and service.
+     * Subscribe a deferred provider and service.
      *
      * @param  string  $provider
      * @param  string|null  $service
@@ -130,7 +130,7 @@ interface Application extends Container
     public function boot();
 
     /**
-     * Register a new boot listener.
+     * Subscribe a new boot listener.
      *
      * @param  callable  $callback
      * @return void
@@ -138,7 +138,7 @@ interface Application extends Container
     public function booting($callback);
 
     /**
-     * Register a new "booted" listener.
+     * Subscribe a new "booted" listener.
      *
      * @param  callable  $callback
      * @return void

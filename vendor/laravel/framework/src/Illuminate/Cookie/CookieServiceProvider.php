@@ -7,7 +7,7 @@ use Illuminate\Support\ServiceProvider;
 class CookieServiceProvider extends ServiceProvider
 {
     /**
-     * Register the service provider.
+     * Subscribe the service provider.
      *
      * @return void
      */

@@ -95,7 +95,7 @@ class Shell extends Application
 
         $this->config->setShell($this);
 
-        // Register the current shell session's config with \Psy\info
+        // Subscribe the current shell session's config with \Psy\info
         \Psy\info($this->config);
     }
 

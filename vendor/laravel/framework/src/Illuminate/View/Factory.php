@@ -406,7 +406,7 @@ class Factory implements FactoryContract
     }
 
     /**
-     * Register a valid view extension and its engine.
+     * Subscribe a valid view extension and its engine.
      *
      * @param  string  $extension
      * @param  string  $engine

@@ -22,7 +22,7 @@ class EngineResolver
     protected $resolved = [];
 
     /**
-     * Register a new engine resolver.
+     * Subscribe a new engine resolver.
      *
      * The engine string typically corresponds to a file extension.
      *

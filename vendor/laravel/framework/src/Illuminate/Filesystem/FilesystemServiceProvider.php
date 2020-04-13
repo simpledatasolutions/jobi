@@ -7,7 +7,7 @@ use Illuminate\Support\ServiceProvider;
 class FilesystemServiceProvider extends ServiceProvider
 {
     /**
-     * Register the service provider.
+     * Subscribe the service provider.
      *
      * @return void
      */
@@ -19,7 +19,7 @@ class FilesystemServiceProvider extends ServiceProvider
     }
 
     /**
-     * Register the native filesystem implementation.
+     * Subscribe the native filesystem implementation.
      *
      * @return void
      */
@@ -31,7 +31,7 @@ class FilesystemServiceProvider extends ServiceProvider
     }
 
     /**
-     * Register the driver based filesystem.
+     * Subscribe the driver based filesystem.
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class FilesystemServiceProvider extends ServiceProvider
     }
 
     /**
-     * Register the filesystem manager.
+     * Subscribe the filesystem manager.
      *
      * @return void
      */

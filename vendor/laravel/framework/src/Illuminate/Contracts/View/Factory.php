@@ -42,7 +42,7 @@ interface Factory
     public function share($key, $value = null);
 
     /**
-     * Register a view composer event.
+     * Subscribe a view composer event.
      *
      * @param  array|string  $views
      * @param  \Closure|string  $callback
@@ -51,7 +51,7 @@ interface Factory
     public function composer($views, $callback);
 
     /**
-     * Register a view creator event.
+     * Subscribe a view creator event.
      *
      * @param  array|string  $views
      * @param  \Closure|string  $callback

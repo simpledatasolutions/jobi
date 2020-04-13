@@ -1101,7 +1101,7 @@ class CarbonInterval extends DateInterval
     }
 
     /**
-     * Register a custom macro.
+     * Subscribe a custom macro.
      *
      * @example
      * ```
@@ -1122,7 +1122,7 @@ class CarbonInterval extends DateInterval
     }
 
     /**
-     * Register macros from a mixin object.
+     * Subscribe macros from a mixin object.
      *
      * @example
      * ```

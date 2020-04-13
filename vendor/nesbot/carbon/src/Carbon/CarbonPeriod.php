@@ -525,7 +525,7 @@ class CarbonPeriod implements Iterator, Countable, JsonSerializable
     }
 
     /**
-     * Register a custom macro.
+     * Subscribe a custom macro.
      *
      * @example
      * ```
@@ -546,7 +546,7 @@ class CarbonPeriod implements Iterator, Countable, JsonSerializable
     }
 
     /**
-     * Register macros from a mixin object.
+     * Subscribe macros from a mixin object.
      *
      * @example
      * ```

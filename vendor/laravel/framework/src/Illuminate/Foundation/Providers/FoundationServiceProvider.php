@@ -33,7 +33,7 @@ class FoundationServiceProvider extends AggregateServiceProvider
     }
 
     /**
-     * Register the service provider.
+     * Subscribe the service provider.
      *
      * @return void
      */
@@ -46,7 +46,7 @@ class FoundationServiceProvider extends AggregateServiceProvider
     }
 
     /**
-     * Register the "validate" macro on the request.
+     * Subscribe the "validate" macro on the request.
      *
      * @return void
      */
@@ -68,7 +68,7 @@ class FoundationServiceProvider extends AggregateServiceProvider
     }
 
     /**
-     * Register the "hasValidSignature" macro on the request.
+     * Subscribe the "hasValidSignature" macro on the request.
      *
      * @return void
      */

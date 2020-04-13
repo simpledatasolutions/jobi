@@ -220,7 +220,7 @@ abstract class Queue
     }
 
     /**
-     * Register a callback to be executed when creating job payloads.
+     * Subscribe a callback to be executed when creating job payloads.
      *
      * @param  callable  $callback
      * @return void

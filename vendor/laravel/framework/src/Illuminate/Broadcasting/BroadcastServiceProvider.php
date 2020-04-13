@@ -10,7 +10,7 @@ use Illuminate\Support\ServiceProvider;
 class BroadcastServiceProvider extends ServiceProvider implements DeferrableProvider
 {
     /**
-     * Register the service provider.
+     * Subscribe the service provider.
      *
      * @return void
      */

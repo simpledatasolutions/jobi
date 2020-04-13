@@ -172,7 +172,7 @@ class Kernel implements KernelContract
     }
 
     /**
-     * Register the Closure based commands for the application.
+     * Subscribe the Closure based commands for the application.
      *
      * @return void
      */
@@ -182,7 +182,7 @@ class Kernel implements KernelContract
     }
 
     /**
-     * Register a Closure based command with the application.
+     * Subscribe a Closure based command with the application.
      *
      * @param  string  $signature
      * @param  \Closure  $callback
@@ -200,7 +200,7 @@ class Kernel implements KernelContract
     }
 
     /**
-     * Register all of the commands in the given directory.
+     * Subscribe all of the commands in the given directory.
      *
      * @param  array|string  $paths
      * @return void
@@ -236,7 +236,7 @@ class Kernel implements KernelContract
     }
 
     /**
-     * Register the given command with the console application.
+     * Subscribe the given command with the console application.
      *
      * @param  \Symfony\Component\Console\Command\Command  $command
      * @return void

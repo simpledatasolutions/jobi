@@ -215,7 +215,7 @@ class Gate implements GateContract
     }
 
     /**
-     * Register a callback to run before all Gate checks.
+     * Subscribe a callback to run before all Gate checks.
      *
      * @param  callable  $callback
      * @return $this
@@ -228,7 +228,7 @@ class Gate implements GateContract
     }
 
     /**
-     * Register a callback to run after all Gate checks.
+     * Subscribe a callback to run after all Gate checks.
      *
      * @param  callable  $callback
      * @return $this

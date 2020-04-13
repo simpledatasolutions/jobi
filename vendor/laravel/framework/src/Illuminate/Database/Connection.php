@@ -788,7 +788,7 @@ class Connection implements ConnectionInterface
     }
 
     /**
-     * Register a database query listener with the connection.
+     * Subscribe a database query listener with the connection.
      *
      * @param  \Closure  $callback
      * @return void
@@ -1266,7 +1266,7 @@ class Connection implements ConnectionInterface
     }
 
     /**
-     * Register a connection resolver.
+     * Subscribe a connection resolver.
      *
      * @param  string  $driver
      * @param  \Closure  $callback

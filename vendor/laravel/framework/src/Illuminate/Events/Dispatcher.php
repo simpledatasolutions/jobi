@@ -65,7 +65,7 @@ class Dispatcher implements DispatcherContract
     }
 
     /**
-     * Register an event listener with the dispatcher.
+     * Subscribe an event listener with the dispatcher.
      *
      * @param  string|array  $events
      * @param  \Closure|string  $listener
@@ -127,7 +127,7 @@ class Dispatcher implements DispatcherContract
     }
 
     /**
-     * Register an event and payload to be fired later.
+     * Subscribe an event and payload to be fired later.
      *
      * @param  string  $event
      * @param  array  $payload
@@ -152,7 +152,7 @@ class Dispatcher implements DispatcherContract
     }
 
     /**
-     * Register an event subscriber with the dispatcher.
+     * Subscribe an event subscriber with the dispatcher.
      *
      * @param  object|string  $subscriber
      * @return void
@@ -349,7 +349,7 @@ class Dispatcher implements DispatcherContract
     }
 
     /**
-     * Register an event listener with the dispatcher.
+     * Subscribe an event listener with the dispatcher.
      *
      * @param  \Closure|string  $listener
      * @param  bool  $wildcard

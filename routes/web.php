@@ -17,11 +17,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/register', function () {
+Route::get('/subscribe', function () {
     return view('register');
 });
 
-Route::get('/register/submit', 'RegisterController@submit');
+Route::get('/subscribe/submit', 'SubscribeController@submit');
 
 Route::get('/apply', function () {
     return view('apply');

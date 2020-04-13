@@ -47,7 +47,7 @@ trait Macro
     protected static $globalGenericMacros = [];
 
     /**
-     * Register a custom macro.
+     * Subscribe a custom macro.
      *
      * @example
      * ```
@@ -81,7 +81,7 @@ trait Macro
     }
 
     /**
-     * Register a custom macro.
+     * Subscribe a custom macro.
      *
      * @param object|callable $macro
      * @param int             $priority marco with higher priority is tried first

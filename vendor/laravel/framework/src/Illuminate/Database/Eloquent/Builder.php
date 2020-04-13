@@ -114,7 +114,7 @@ class Builder
     }
 
     /**
-     * Register a new global scope.
+     * Subscribe a new global scope.
      *
      * @param  string  $identifier
      * @param  \Illuminate\Database\Eloquent\Scope|\Closure  $scope
@@ -880,7 +880,7 @@ class Builder
     }
 
     /**
-     * Register a replacement for the default delete function.
+     * Subscribe a replacement for the default delete function.
      *
      * @param  \Closure  $callback
      * @return void
@@ -1419,7 +1419,7 @@ class Builder
     }
 
     /**
-     * Register the given mixin with the builder.
+     * Subscribe the given mixin with the builder.
      *
      * @param  string  $mixin
      * @param  bool  $replace

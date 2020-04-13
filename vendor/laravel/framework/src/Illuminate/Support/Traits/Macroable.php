@@ -17,7 +17,7 @@ trait Macroable
     protected static $macros = [];
 
     /**
-     * Register a custom macro.
+     * Subscribe a custom macro.
      *
      * @param  string  $name
      * @param  object|callable  $macro

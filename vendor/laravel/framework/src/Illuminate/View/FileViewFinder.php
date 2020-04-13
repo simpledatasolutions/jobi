@@ -36,7 +36,7 @@ class FileViewFinder implements ViewFinderInterface
     protected $hints = [];
 
     /**
-     * Register a view extension with the finder.
+     * Subscribe a view extension with the finder.
      *
      * @var array
      */
@@ -232,7 +232,7 @@ class FileViewFinder implements ViewFinderInterface
     }
 
     /**
-     * Register an extension with the view finder.
+     * Subscribe an extension with the view finder.
      *
      * @param  string  $extension
      * @return void

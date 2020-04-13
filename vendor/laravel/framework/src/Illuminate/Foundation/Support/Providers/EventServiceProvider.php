@@ -23,7 +23,7 @@ class EventServiceProvider extends ServiceProvider
     protected $subscribe = [];
 
     /**
-     * Register the application's event listeners.
+     * Subscribe the application's event listeners.
      *
      * @return void
      */

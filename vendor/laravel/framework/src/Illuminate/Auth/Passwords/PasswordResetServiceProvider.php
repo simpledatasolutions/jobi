@@ -8,7 +8,7 @@ use Illuminate\Support\ServiceProvider;
 class PasswordResetServiceProvider extends ServiceProvider implements DeferrableProvider
 {
     /**
-     * Register the service provider.
+     * Subscribe the service provider.
      *
      * @return void
      */
@@ -18,7 +18,7 @@ class PasswordResetServiceProvider extends ServiceProvider implements Deferrable
     }
 
     /**
-     * Register the password broker instance.
+     * Subscribe the password broker instance.
      *
      * @return void
      */

@@ -10,7 +10,7 @@ use Illuminate\Support\ServiceProvider;
 class AuthServiceProvider extends ServiceProvider
 {
     /**
-     * Register the service provider.
+     * Subscribe the service provider.
      *
      * @return void
      */
@@ -24,7 +24,7 @@ class AuthServiceProvider extends ServiceProvider
     }
 
     /**
-     * Register the authenticator services.
+     * Subscribe the authenticator services.
      *
      * @return void
      */
@@ -45,7 +45,7 @@ class AuthServiceProvider extends ServiceProvider
     }
 
     /**
-     * Register a resolver for the authenticated user.
+     * Subscribe a resolver for the authenticated user.
      *
      * @return void
      */
@@ -59,7 +59,7 @@ class AuthServiceProvider extends ServiceProvider
     }
 
     /**
-     * Register the access gate service.
+     * Subscribe the access gate service.
      *
      * @return void
      */

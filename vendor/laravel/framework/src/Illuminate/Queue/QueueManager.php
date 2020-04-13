@@ -45,7 +45,7 @@ class QueueManager implements FactoryContract, MonitorContract
     }
 
     /**
-     * Register an event listener for the before job event.
+     * Subscribe an event listener for the before job event.
      *
      * @param  mixed  $callback
      * @return void
@@ -56,7 +56,7 @@ class QueueManager implements FactoryContract, MonitorContract
     }
 
     /**
-     * Register an event listener for the after job event.
+     * Subscribe an event listener for the after job event.
      *
      * @param  mixed  $callback
      * @return void
@@ -67,7 +67,7 @@ class QueueManager implements FactoryContract, MonitorContract
     }
 
     /**
-     * Register an event listener for the exception occurred job event.
+     * Subscribe an event listener for the exception occurred job event.
      *
      * @param  mixed  $callback
      * @return void
@@ -78,7 +78,7 @@ class QueueManager implements FactoryContract, MonitorContract
     }
 
     /**
-     * Register an event listener for the daemon queue loop.
+     * Subscribe an event listener for the daemon queue loop.
      *
      * @param  mixed  $callback
      * @return void
@@ -89,7 +89,7 @@ class QueueManager implements FactoryContract, MonitorContract
     }
 
     /**
-     * Register an event listener for the failed job event.
+     * Subscribe an event listener for the failed job event.
      *
      * @param  mixed  $callback
      * @return void
@@ -100,7 +100,7 @@ class QueueManager implements FactoryContract, MonitorContract
     }
 
     /**
-     * Register an event listener for the daemon queue stopping.
+     * Subscribe an event listener for the daemon queue stopping.
      *
      * @param  mixed  $callback
      * @return void

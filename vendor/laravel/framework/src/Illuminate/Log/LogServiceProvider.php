@@ -7,7 +7,7 @@ use Illuminate\Support\ServiceProvider;
 class LogServiceProvider extends ServiceProvider
 {
     /**
-     * Register the service provider.
+     * Subscribe the service provider.
      *
      * @return void
      */

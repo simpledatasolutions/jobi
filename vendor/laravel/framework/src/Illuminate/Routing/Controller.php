@@ -14,7 +14,7 @@ abstract class Controller
     protected $middleware = [];
 
     /**
-     * Register middleware on the controller.
+     * Subscribe middleware on the controller.
      *
      * @param  \Closure|array|string  $middleware
      * @param  array  $options

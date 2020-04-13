@@ -110,7 +110,7 @@ class Manager
     }
 
     /**
-     * Register a connection with the manager.
+     * Subscribe a connection with the manager.
      *
      * @param  array  $config
      * @param  string  $name

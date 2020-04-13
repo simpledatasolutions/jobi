@@ -47,7 +47,7 @@ class BrowserConsoleHandler extends AbstractProcessingHandler
         // Accumulate records
         static::$records[] = $record;
 
-        // Register shutdown handler if not already done
+        // Subscribe shutdown handler if not already done
         if (!static::$initialized) {
             static::$initialized = true;
             $this->registerShutdownFunction();

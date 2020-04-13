@@ -256,7 +256,7 @@ class NativeSessionStorage implements SessionStorageInterface
             unset($_SESSION[$key]);
         }
 
-        // Register error handler to add information about the current save handler
+        // Subscribe error handler to add information about the current save handler
         $previousHandler = set_error_handler(function ($type, $msg, $file, $line) use (&$previousHandler) {
             if (E_WARNING === $type && 0 === strpos($msg, 'session_write_close():')) {
                 $handler = $this->saveHandler instanceof SessionHandlerProxy ? $this->saveHandler->getHandler() : $this->saveHandler;

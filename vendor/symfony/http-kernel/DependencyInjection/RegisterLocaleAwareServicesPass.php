@@ -17,7 +17,7 @@ use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Reference;
 
 /**
- * Register all services that have the "kernel.locale_aware" tag into the listener.
+ * Subscribe all services that have the "kernel.locale_aware" tag into the listener.
  *
  * @author Pierre Bobiet <pierrebobiet@gmail.com>
  */

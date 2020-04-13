@@ -84,7 +84,7 @@ class Factory
     }
 
     /**
-     * Register a stub callable that will intercept requests and be able to return stub responses.
+     * Subscribe a stub callable that will intercept requests and be able to return stub responses.
      *
      * @param  callable|array  $callback
      * @return $this
@@ -119,7 +119,7 @@ class Factory
     }
 
     /**
-     * Register a response sequence for the given URL pattern.
+     * Subscribe a response sequence for the given URL pattern.
      *
      * @param  string  $url
      * @return \Illuminate\Http\Client\ResponseSequence

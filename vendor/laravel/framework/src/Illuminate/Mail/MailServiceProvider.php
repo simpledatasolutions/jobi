@@ -8,7 +8,7 @@ use Illuminate\Support\ServiceProvider;
 class MailServiceProvider extends ServiceProvider implements DeferrableProvider
 {
     /**
-     * Register the service provider.
+     * Subscribe the service provider.
      *
      * @return void
      */
@@ -19,7 +19,7 @@ class MailServiceProvider extends ServiceProvider implements DeferrableProvider
     }
 
     /**
-     * Register the Illuminate mailer instance.
+     * Subscribe the Illuminate mailer instance.
      *
      * @return void
      */
@@ -35,7 +35,7 @@ class MailServiceProvider extends ServiceProvider implements DeferrableProvider
     }
 
     /**
-     * Register the Markdown renderer instance.
+     * Subscribe the Markdown renderer instance.
      *
      * @return void
      */

@@ -135,7 +135,7 @@ class RouteRegistrar
     }
 
     /**
-     * Register a new route with the given verbs.
+     * Subscribe a new route with the given verbs.
      *
      * @param  array|string  $methods
      * @param  string  $uri
@@ -148,7 +148,7 @@ class RouteRegistrar
     }
 
     /**
-     * Register a new route with the router.
+     * Subscribe a new route with the router.
      *
      * @param  string  $method
      * @param  string  $uri

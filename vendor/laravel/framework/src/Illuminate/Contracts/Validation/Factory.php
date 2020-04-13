@@ -16,7 +16,7 @@ interface Factory
     public function make(array $data, array $rules, array $messages = [], array $customAttributes = []);
 
     /**
-     * Register a custom validator extension.
+     * Subscribe a custom validator extension.
      *
      * @param  string  $rule
      * @param  \Closure|string  $extension
@@ -26,7 +26,7 @@ interface Factory
     public function extend($rule, $extension, $message = null);
 
     /**
-     * Register a custom implicit validator extension.
+     * Subscribe a custom implicit validator extension.
      *
      * @param  string  $rule
      * @param  \Closure|string  $extension
@@ -36,7 +36,7 @@ interface Factory
     public function extendImplicit($rule, $extension, $message = null);
 
     /**
-     * Register a custom implicit validator message replacer.
+     * Subscribe a custom implicit validator message replacer.
      *
      * @param  string  $rule
      * @param  \Closure|string  $replacer

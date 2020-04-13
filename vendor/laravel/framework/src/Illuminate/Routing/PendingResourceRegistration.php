@@ -167,7 +167,7 @@ class PendingResourceRegistration
     }
 
     /**
-     * Register the resource route.
+     * Subscribe the resource route.
      *
      * @return \Illuminate\Routing\RouteCollection
      */

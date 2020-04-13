@@ -274,7 +274,7 @@ interface FilesystemInterface
     public function get($path, Handler $handler = null);
 
     /**
-     * Register a plugin.
+     * Subscribe a plugin.
      *
      * @param PluginInterface $plugin The plugin to register.
      *

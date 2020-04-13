@@ -321,7 +321,7 @@ class MailMessage extends SimpleMessage implements Renderable
     }
 
     /**
-     * Register a callback to be called with the Swift message instance.
+     * Subscribe a callback to be called with the Swift message instance.
      *
      * @param  callable  $callback
      * @return $this

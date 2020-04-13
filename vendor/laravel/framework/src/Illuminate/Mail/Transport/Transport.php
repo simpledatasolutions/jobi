@@ -49,7 +49,7 @@ abstract class Transport implements Swift_Transport
     }
 
     /**
-     * Register a plug-in with the transport.
+     * Subscribe a plug-in with the transport.
      *
      * @param  \Swift_Events_EventListener  $plugin
      * @return void

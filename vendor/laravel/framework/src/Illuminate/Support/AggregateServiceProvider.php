@@ -19,7 +19,7 @@ class AggregateServiceProvider extends ServiceProvider
     protected $instances = [];
 
     /**
-     * Register the service provider.
+     * Subscribe the service provider.
      *
      * @return void
      */

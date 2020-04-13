@@ -45,7 +45,7 @@ class ProviderRepository
     }
 
     /**
-     * Register the application service providers.
+     * Subscribe the application service providers.
      *
      * @param  array  $providers
      * @return void
@@ -110,7 +110,7 @@ class ProviderRepository
     }
 
     /**
-     * Register the load events for the given provider.
+     * Subscribe the load events for the given provider.
      *
      * @param  string  $provider
      * @param  array  $events

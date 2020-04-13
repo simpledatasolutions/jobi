@@ -343,7 +343,7 @@ class FilesystemManager implements FactoryContract
     }
 
     /**
-     * Register a custom driver creator Closure.
+     * Subscribe a custom driver creator Closure.
      *
      * @param  string  $driver
      * @param  \Closure  $callback

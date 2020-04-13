@@ -27,7 +27,7 @@ trait HasEvents
     protected $observables = [];
 
     /**
-     * Register observers with the model.
+     * Subscribe observers with the model.
      *
      * @param  object|array|string  $classes
      * @return void
@@ -44,7 +44,7 @@ trait HasEvents
     }
 
     /**
-     * Register a single observer with the model.
+     * Subscribe a single observer with the model.
      *
      * @param  object|string  $class
      * @return void
@@ -143,7 +143,7 @@ trait HasEvents
     }
 
     /**
-     * Register a model event with the dispatcher.
+     * Subscribe a model event with the dispatcher.
      *
      * @param  string  $event
      * @param  \Closure|string  $callback
@@ -227,7 +227,7 @@ trait HasEvents
     }
 
     /**
-     * Register a retrieved model event with the dispatcher.
+     * Subscribe a retrieved model event with the dispatcher.
      *
      * @param  \Closure|string  $callback
      * @return void
@@ -238,7 +238,7 @@ trait HasEvents
     }
 
     /**
-     * Register a saving model event with the dispatcher.
+     * Subscribe a saving model event with the dispatcher.
      *
      * @param  \Closure|string  $callback
      * @return void
@@ -249,7 +249,7 @@ trait HasEvents
     }
 
     /**
-     * Register a saved model event with the dispatcher.
+     * Subscribe a saved model event with the dispatcher.
      *
      * @param  \Closure|string  $callback
      * @return void
@@ -260,7 +260,7 @@ trait HasEvents
     }
 
     /**
-     * Register an updating model event with the dispatcher.
+     * Subscribe an updating model event with the dispatcher.
      *
      * @param  \Closure|string  $callback
      * @return void
@@ -271,7 +271,7 @@ trait HasEvents
     }
 
     /**
-     * Register an updated model event with the dispatcher.
+     * Subscribe an updated model event with the dispatcher.
      *
      * @param  \Closure|string  $callback
      * @return void
@@ -282,7 +282,7 @@ trait HasEvents
     }
 
     /**
-     * Register a creating model event with the dispatcher.
+     * Subscribe a creating model event with the dispatcher.
      *
      * @param  \Closure|string  $callback
      * @return void
@@ -293,7 +293,7 @@ trait HasEvents
     }
 
     /**
-     * Register a created model event with the dispatcher.
+     * Subscribe a created model event with the dispatcher.
      *
      * @param  \Closure|string  $callback
      * @return void
@@ -304,7 +304,7 @@ trait HasEvents
     }
 
     /**
-     * Register a replicating model event with the dispatcher.
+     * Subscribe a replicating model event with the dispatcher.
      *
      * @param  \Closure|string  $callback
      * @return void
@@ -315,7 +315,7 @@ trait HasEvents
     }
 
     /**
-     * Register a deleting model event with the dispatcher.
+     * Subscribe a deleting model event with the dispatcher.
      *
      * @param  \Closure|string  $callback
      * @return void
@@ -326,7 +326,7 @@ trait HasEvents
     }
 
     /**
-     * Register a deleted model event with the dispatcher.
+     * Subscribe a deleted model event with the dispatcher.
      *
      * @param  \Closure|string  $callback
      * @return void

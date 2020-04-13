@@ -44,7 +44,7 @@ abstract class ServiceProvider
     }
 
     /**
-     * Register any application services.
+     * Subscribe any application services.
      *
      * @return void
      */
@@ -83,7 +83,7 @@ abstract class ServiceProvider
     }
 
     /**
-     * Register a view file namespace.
+     * Subscribe a view file namespace.
      *
      * @param  string|array  $path
      * @param  string  $namespace
@@ -106,7 +106,7 @@ abstract class ServiceProvider
     }
 
     /**
-     * Register the given view components with a custom prefix.
+     * Subscribe the given view components with a custom prefix.
      *
      * @param  string  $prefix
      * @param  array  $components
@@ -122,7 +122,7 @@ abstract class ServiceProvider
     }
 
     /**
-     * Register a translation file namespace.
+     * Subscribe a translation file namespace.
      *
      * @param  string  $path
      * @param  string  $namespace
@@ -136,7 +136,7 @@ abstract class ServiceProvider
     }
 
     /**
-     * Register a JSON translation file path.
+     * Subscribe a JSON translation file path.
      *
      * @param  string  $path
      * @return void
@@ -149,7 +149,7 @@ abstract class ServiceProvider
     }
 
     /**
-     * Register database migration paths.
+     * Subscribe database migration paths.
      *
      * @param  array|string  $paths
      * @return void
@@ -164,7 +164,7 @@ abstract class ServiceProvider
     }
 
     /**
-     * Register Eloquent model factory paths.
+     * Subscribe Eloquent model factory paths.
      *
      * @param  array|string  $paths
      * @return void
@@ -195,7 +195,7 @@ abstract class ServiceProvider
     }
 
     /**
-     * Register paths to be published by the publish command.
+     * Subscribe paths to be published by the publish command.
      *
      * @param  array  $paths
      * @param  mixed  $groups
@@ -318,7 +318,7 @@ abstract class ServiceProvider
     }
 
     /**
-     * Register the package's custom Artisan commands.
+     * Subscribe the package's custom Artisan commands.
      *
      * @param  array|mixed  $commands
      * @return void

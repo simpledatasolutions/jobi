@@ -23,8 +23,8 @@
                                 <td>{{ $user->name }}</td>
                                 <td>{{ $user->email }}</td>
                                 <td>
-                                    <button type="button" class="btn btn-primary">Edit</button>
-                                    <button type="button" class="btn btn-warning">Delete</button>
+                                    <a href="{{route('admin.users.edit', $user->id)}}"><button type="button" class="btn btn-primary">Edit</button></a>
+                                    <a href="{{route('admin.users.destroy', $user->id)}}"><button type="button" class="btn btn-warning">Delete</button></a>
 
                                 </td>
                             </tr>

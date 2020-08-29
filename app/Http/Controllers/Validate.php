@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class Validate extends Controller
+class ValidateController extends Controller
 {
     public function submit(Request $request)
     {

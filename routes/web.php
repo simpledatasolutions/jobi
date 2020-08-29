@@ -53,6 +53,34 @@ Route::namespace('Admin')->prefix('admin')->name('admin.')->group(function(){
 
 
 
-Route::get('api/validate', function () {
-    return [1, 2, 3];
+Route::Post('api/validate', function () {
+
+    $data = ['text' => 'this is some text that has been validated'];
+    return $data;
 });
+
+Route::get('api/files/34', function () {
+
+    $files = [
+
+        "id" => 1,
+        "text"=>"this is some text"
+    ];
+
+    $files2 = [
+
+        "id" => 2,
+        "text" => "this is some text 2"
+    ];
+
+    $ca = array($files,$files2);
+ 
+    $data = ["files" => $ca];
+    return $data;
+});
+
+Route::Post('api/files', function () {
+
+    return response('Ok', 200);
+});
+

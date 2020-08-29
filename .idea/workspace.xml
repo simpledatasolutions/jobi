@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a240af5-8aa5-4d24-afc5-43941f367fe1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_08_29_083548_create_files_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/UsersController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +172,10 @@
       <workItem from="1586735310160" duration="11000" />
       <workItem from="1586737234435" duration="240000" />
       <workItem from="1586737506218" duration="8995000" />
-      <workItem from="1586759148165" duration="9766000" />
+      <workItem from="1586759148165" duration="11165000" />
+      <workItem from="1598690033299" duration="42000" />
+      <workItem from="1598690086873" duration="108000" />
+      <workItem from="1598690210385" duration="10000" />
     </task>
     <task id="LOCAL-00001" summary="show">
       <created>1586606346936</created>
@@ -271,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586768410910</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Uuids">
+      <created>1586769019398</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1586769019398</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,46 +301,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="Uuids" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="732" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586759409462">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="88" y="239" key="com.intellij.ide.util.TipDialog" timestamp="1598690210470">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="-1188" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@-1920.0.1920.1040" timestamp="1586752569028" />
-    <state x="732" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1586759409462" />
-    <state x="-1296" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586737632052">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1296" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@-1920.0.1920.1040" timestamp="1586737632052" />
-    <state x="-1230" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1586767776640">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1230" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@-1920.0.1920.1040" timestamp="1586767776640" />
-    <state x="-1335" y="114" key="CommitChangelistDialog2" timestamp="1586768409622">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1335" y="114" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@-1920.0.1920.1040" timestamp="1586768409622" />
-    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1586606492827" />
-    <state x="-1180" y="275" key="FileChooserDialogImpl" timestamp="1586762208459">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1180" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@-1920.0.1920.1040" timestamp="1586762208459" />
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1586735317992" />
-    <state x="-1126" y="443" key="NewPhpFileDialog" timestamp="1586754517781">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1126" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@-1920.0.1920.1040" timestamp="1586754517781" />
-    <state x="-1459" y="162" key="SettingsEditor" timestamp="1586605451040">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1459" y="162" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@-1920.0.1920.1040" timestamp="1586605451040" />
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1586506739858" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1586759147960">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1586759147960" />
-    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1586768834677">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@-1920.0.1920.1040" timestamp="1586768834677" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1586759294767" />
+    <state x="88" y="239" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1598690210470" />
   </component>
 </project>

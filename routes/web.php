@@ -84,6 +84,3 @@ Route::Post('api/files', function () {
     return response('Ok', 200);
 });
 
-Route::Post('api/files'
-
-Route::Post('api/validate'

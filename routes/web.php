@@ -51,4 +51,4 @@ Route::namespace('Admin')->prefix('admin')->name('admin.')->group(function(){
 
 });
 
-Route::Post('/validate', 'SubscribeController@submit');
+Route::Post('/validate', 'ValidateController@submit');

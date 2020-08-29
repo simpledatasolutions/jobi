@@ -1,4 +1,4 @@
-INSERT INTO `questions` (`question_id`, `question`) VALUES
+INSERT INTO questions (question_id, question) VALUES
 (1, 'How old are you?'),
 (2, 'Are you studying?'),
 (3, 'Are you working?'),
@@ -7,7 +7,7 @@ INSERT INTO `questions` (`question_id`, `question`) VALUES
 (6, 'Where do you study ?'),
 (7, 'Where do you work ?');
 
-INSERT INTO `answers` (`id`, `question_id`, `logic`, `answer`, `next_question_id`) VALUES
+INSERT INTO answers (id, question_id, logic, answer, next_question_id) VALUES
 (1, 1, '<', '18', 2),
 (2, 1, '>=', '18', 3),
 (3, 2, '=', 'Yes', 6),

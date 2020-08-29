@@ -51,5 +51,8 @@ Route::namespace('Admin')->prefix('admin')->name('admin.')->group(function(){
 
 });
 
-Route::Post('/api/validate', 'ValidateController@submit');
-Route::Get('/api/validate', 'ValidateController@submit');
+
+
+Route::get('api/validate', function () {
+    return [1, 2, 3];
+});
